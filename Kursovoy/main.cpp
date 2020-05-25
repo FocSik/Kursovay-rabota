@@ -58,31 +58,7 @@ int main()
   //Rtos::CreateThread(myTask, "myTask", ThreadPriority::lowest);   //FIXME Чисто для примера
   //Rtos::Start();
   
-
-
-  using myADC = ADC<ADC1>;
-  myADC::SetChannel(0); //podkluchaem kanali
-  myADC::dmaConfig(); //podkluchaem DMA
-  myADC::On(); //vkluchaen adc
-  myADC::Start();
-  myADC::GetCode();
-  std::cout << "Code: " << myADC::GetCode() << std::endl;
-
-  
-  Vlaznost myVlaznost; 
-  
-  myVlaznost.Calculation(myADC::GetCode());
-  myVlaznost.GetValue();
-    
-  std::cout << "CodeVlaznost: " << myVlaznost.GetValue() << std::endl;
-  
-  Filter myFilter;
-  myFilter.Update(myVlaznost.value());
-  myFilter.OldFilterValue();
-  myFilter.GetOldFilterValue();
-  
-  
-  using myUSART = USART<USART2, 16000000U>;
+    using myUSART = USART<USART2, 16000000U>;
   
   UsartConfig USART2Config ;
   USART2Config.speed = Speed::Speed9600 ;
@@ -99,21 +75,27 @@ int main()
     //for (auto i=0 ; i<10000000 ; i++) ;
   //}
   
+  using myADC = ADC<ADC1>;
+  myADC::SetChannel(0); //podkluchaem kanali
+  myADC::dmaConfig(); //podkluchaem DMA
+  myADC::On(); //vkluchaen adc
+  myADC::Start();
+  myADC::GetCode();
+  std::cout << "Code: " << myADC::GetCode() << std::endl;
+
   
+  Vlaznost myVlaznost; 
   
- 
+  myVlaznost.Calculation(myADC::GetCode());
+  myVlaznost.GetValue();
+    
+  std::cout << "CodeVlaznost: " << myVlaznost.GetValue() << std::endl;
   
+  //Filter myFilter;
+  //myFilter.Update(myVlaznost.value());
+ // myFilter.OldFilterValue();
+  //myFilter.GetOldFilterValue();
   
-  
-  
-  
-  
-  
-  
- // using myFilter = Filter;
- // myFilter::FilterValue();
- // myFilter::Update();
-  //std::cout << "CodeVlaznost: " << OldFilterValue();
   
   return 0;
 }
