@@ -4,11 +4,15 @@
 #include "ADC.hpp"
 #include "adc1registers.hpp"
 #include "Led.hpp"
+#include "Vlaznost.hpp"
 #include "USART.hpp"
 #include "susudefs.hpp"
 #include "Filter.hpp"
+
 #include <iostream>
 #include "usart2registers.hpp"
+#include <cmath>
+#include "gpioaregisters.hpp"
 
 
 
@@ -29,10 +33,13 @@ int __low_level_init(void)
   {
 
   }
-  
+ 
+
   RCC::APB2ENR::SYSCFGEN::Enable::Set(); 
   RCC::APB2ENR::ADC1EN::Enable::Set();
   RCC::AHB1ENR::DMA2EN::Enable::Set();
+  RCC::AHB1ENR::GPIOAEN::Enable::Set();// takt na port a
+  GPIOA::MODER::MODER0::Analog::Set();
   
   RCC::APB1ENR::USART2EN::Enable::Set() ;
 
@@ -51,14 +58,29 @@ int main()
   //Rtos::CreateThread(myTask, "myTask", ThreadPriority::lowest);   //FIXME Чисто для примера
   //Rtos::Start();
   
-  //using myADC = ADC<ADC1>;
-  //myADC::SetChannel(1); //podkluchaem kanali
-  //myADC::dmaConfig(); //podkluchaem DMA
-  //myADC::On(); //vkluchaen adc
-  //myADC::Start();
+
+
+  using myADC = ADC<ADC1>;
+  myADC::SetChannel(0); //podkluchaem kanali
+  myADC::dmaConfig(); //podkluchaem DMA
+  myADC::On(); //vkluchaen adc
+  myADC::Start();
+  myADC::GetCode();
+  std::cout << "Code: " << myADC::GetCode() << std::endl;
+
   
-  //myADC::GetValue(); //chitaem
-  //std::cout << "CodeAdc: " << myADC::GetValue();
+  Vlaznost myVlaznost; 
+  
+  myVlaznost.Calculation(myADC::GetCode());
+  myVlaznost.GetValue();
+    
+  std::cout << "CodeVlaznost: " << myVlaznost.GetValue() << std::endl;
+  
+  Filter myFilter;
+  myFilter.Update(myVlaznost.value());
+  myFilter.OldFilterValue();
+  myFilter.GetOldFilterValue();
+  
   
   using myUSART = USART<USART2, 16000000U>;
   
@@ -70,24 +92,28 @@ int main()
   USART2Config.samplingmode = SamplingMode::Mode8 ;
   myUSART::Config(USART2Config) ;
   myUSART::On() ;
-  for (;;) 
-  {
-    myUSART::SendData(message.str, message.size) ;
-    for (auto i=0 ; i<10000000 ; i++) ;
-  }
+
+  //for (;;) 
+  //{
+    //myUSART::SendData() ;
+    //for (auto i=0 ; i<10000000 ; i++) ;
+  //}
   
   
-  //myUSART::On();
-  //myUSART::Config(config);
-  //myUSART::SendByte();
-  //myUSART::SendData();
-  //myUSART::SetStopBits();
-  //myUSART::SetBitsSize();
-  //myUSART::SetSamplingMode();
-  //myUSART::SetParity;
-  //myUSART::SetSpeed();
+  
  
- 
+  
+  
+  
+  
+  
+  
+  
+  
+ // using myFilter = Filter;
+ // myFilter::FilterValue();
+ // myFilter::Update();
+  //std::cout << "CodeVlaznost: " << OldFilterValue();
   
   return 0;
 }

@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cmath> //For exp
+#include "Vlaznost.hpp"
 
 class Filter
 {
@@ -16,5 +17,12 @@ float Update(float value) //filtracia vlaznosti
 float FilterValue = OldFilterValue+(value-OldFilterValue)*tau; //vicheclenie poluchennogo znachenia
 OldFilterValue = FilterValue; //zapisivaet tecuchee znachenie dla dalneichei raboti
 return FilterValue; //konets
+}
+
+float GetOldFilterValue (float value)
+{
+float FilterValue = OldFilterValue + (value - OldFilterValue)*tau;
+OldFilterValue = FilterValue;
+return FilterValue;
 }
 };
