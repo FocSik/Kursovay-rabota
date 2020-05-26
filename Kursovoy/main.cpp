@@ -8,7 +8,7 @@
 #include "USART.hpp"
 #include "susudefs.hpp"
 #include "Filter.hpp"
-
+#include "Bluetooth.hpp"
 #include <iostream>
 #include "usart2registers.hpp"
 #include <cmath>
@@ -91,10 +91,20 @@ int main()
     
   std::cout << "CodeVlaznost: " << myVlaznost.GetValue() << std::endl;
   
-  //Filter myFilter;
-  //myFilter.Update(myVlaznost.value());
- // myFilter.OldFilterValue();
-  //myFilter.GetOldFilterValue();
+  Filter myFilter;
+  myFilter.Update(myVlaznost.GetValue());
+  myFilter.GetOldFilterValue(myVlaznost.GetValue());
+  
+  
+  //void Send(myBluetoothFormat.BluetoothFormat(myFilter.GetOldFilterValue(myVlaznost.GetValue())) override {
+  //const char* str = myBluetoothFormat.BluetoothFormat(myFilter.GetOldFilterValue(myVlaznost.GetValue());
+  //auto size = std::strlen(str) ;
+  //if (size <= message.Size)
+  //{
+   // USART::SendData(message.myBluetoothFormat.BluetoothFormat(myFilter.GetOldFilterValue(myVlaznost.GetValue()), size);
+  //}
+  
+  
   
   
   return 0;

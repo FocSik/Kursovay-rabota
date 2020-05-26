@@ -1,0 +1,99 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         26/May/2020  16:31:57
+# Copyright 1999-2019 IAR Systems AB.
+#
+#    Cpu mode     =  
+#    Endian       =  little
+#    Source file  =
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\BluetoothFormat.cpp
+#    Command line =
+#        -f C:\Users\FocSik\AppData\Local\Temp\EW84A3.tmp
+#        (C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\BluetoothFormat.cpp
+#        -lC
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
+#        -lA
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
+#        -o C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D:\IAR
+#        Systems\Embedded Workbench 8.3\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\ -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\Common\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\MemMang\
+#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTasks\
+#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Common\
+#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\CMSIS\ -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Diagnostic\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\GpioPort\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\IrqController\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Pin\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Port\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Atomic\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\Singleton\
+#        -Ol --c++ --no_exceptions --no_rtti)
+#    Locale       =  C
+#    List file    =
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List\BluetoothFormat.lst
+#    Object file  =
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj\BluetoothFormat.o
+#
+###############################################################################
+
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\BluetoothFormat.cpp
+      1          #include "susudefs.hpp"//For STM32F411 registers defenition
+      2          #include "BluetoothFormat.hpp"
+
+    static char* TransformToString(tU32 Humi);
+                                   ^
+"C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\BluetoothFormat.hpp",13  Error[Pe020]: 
+          identifier "tU32" is undefined
+      3          #include "rccregisters.hpp"
+      4          char BluetoothFormat::Stroka[48];
+      5          
+      6          char* BluetoothFormat::TransformToString(tU32 Humi)
+                                                          ^
+Error[Pe020]: identifier "tU32" is undefined
+      7            {
+      8              sprintf(Stroka, "Humidity is %d percents \n", Humi);
+      9              return(Stroka);
+     10            }
+     11          
+     12          
+
+Errors: 2
+Warnings: none

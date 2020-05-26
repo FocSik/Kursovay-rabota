@@ -2389,13 +2389,16 @@
     <group>
         <name>Application</name>
         <file>
-            <name>$PROJ_DIR$\Application\BluetoothFormat.hpp</name>
+            <name>$PROJ_DIR$\Application\Bluetooth.hpp</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Application\BluetoothTask.hpp</name>
+            <name>$PROJ_DIR$\Application\BluetoothDriver.hpp</name>
         </file>
         <file>
             <name>$PROJ_DIR$\Application\Filter.hpp</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\IBluetoothDriver.hpp</name>
         </file>
         <file>
             <name>$PROJ_DIR$\Application\Led.hpp</name>
