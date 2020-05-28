@@ -9,21 +9,59 @@
 #include "ADC.hpp" //For definition of class Adc
 #include "Vlaznost.hpp" //For definition of class Variale
 #include "Filter.hpp"//For definition of class Filter
+#include <iostream>
 
 using namespace::OsWrapper ;
 
 //pointer to MailBox in spase OsWrapper
-using tMailBox = OsWrapper::MailBox<uint32_t, 2> ;
+using tMailBox = OsWrapper::MailBox<uint32_t, 1> ;
 
 
-//Psevdlonim for task VarialeTask 
-//using tVarialeTaskStack = std::array<OsWrapper::tStack, static_cast<tU16>(OsWrapper::StackDepth::minimal)> ;
+
 template <typename myADC>
-class VarialeTask : public OsWrapper::Thread<128>
+class VariableTask : public OsWrapper::Thread<512> 
 {
 private:
-  
 
+  
+  OsWrapper::Event& myEvent;  
+
+  
+public:
+  void Execute() override
+  {
+    
+  myADC::SetChannel(0); //podkluchaem kanali
+  myADC::dmaConfig(); //podkluchaem DMA 
+  
+   for( ; ;)
+  {
+   
+
+  myADC::On(); //vkluchaen adc
+  myADC::Start();
+  myADC::GetCode();
+  std::cout << "Code: " << myADC::GetCode() << std::endl;
+  
+    auto code = myADC::GetCode(); //po idee, uzhe ne nuzhen
+    
+   Vlaznost myVlaznost; 
+  
+  myVlaznost.Calculation(myADC::GetCode());
+  myVlaznost.GetValue();
+     
+  Filter myFilter;
+  myFilter.Update(myVlaznost.GetValue());
+  myFilter.GetOldFilterValue(myVlaznost.GetValue());
+  
+  std::cout << "CodeVlaznost: " <<  myFilter.GetOldFilterValue(myVlaznost.GetValue()) << std::endl;
+
+    Sleep(100ms);
+  } 
+  }
+  
+  VariableTask(OsWrapper::Event& event): myEvent(event)
+  {}
 };
 
 #endif 

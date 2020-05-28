@@ -1,0 +1,112 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         28/May/2020  13:40:57
+# Copyright 1999-2019 IAR Systems AB.
+#
+#    Cpu mode     =  
+#    Endian       =  little
+#    Source file  =
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
+#    Command line =
+#        -f C:\Users\FocSik\AppData\Local\Temp\EW8C04.tmp
+#        (C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
+#        -lC
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
+#        -lA
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
+#        -o C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D:\IAR
+#        Systems\Embedded Workbench 8.3\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\ -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\Common\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\MemMang\
+#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTasks\
+#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Common\
+#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\CMSIS\ -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Diagnostic\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\GpioPort\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\IrqController\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Pin\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Port\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Atomic\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\Singleton\
+#        -Ol --c++ --no_exceptions --no_rtti)
+#    Locale       =  C
+#    List file    =
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List\BluetoothDirector.lst
+#    Object file  =
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj\BluetoothDirector.o
+#
+###############################################################################
+
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
+      1          #include "BluetoothDirector.hpp" 
+
+      sprintf(str, "\%s%.3f %s\n", "Filter: ", std::get<1>(data), (std::get<0>(data)).GetString()) ;
+                    ^
+"C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\Format.hpp",15  Warning[Pe192]: 
+          unrecognized character escape sequence
+
+      sprintf(str, "\%s%.3f %s", "Filter: ", std::get<1>(data), (std::get<0>(data)).GetString()) ;
+                    ^
+"C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\Format.hpp",22  Warning[Pe192]: 
+          unrecognized character escape sequence
+      2          #include "Format.hpp"
+      3          
+      4          BluetoothDirector::BluetoothDirector(Bluetooth& mybluetooth, Filter& myfilter): bluetooth(mybluetooth), filter(myfilter) {}; 
+      5          
+      6          void BluetoothDirector::Execute() { 
+      7            for (;;) {
+      8              //SusuString<5> name;
+      9              //name.Set("C");
+     10              //float Value = 21;
+     11              //vFormat x = std::make_pair(name,Value);
+     12              vFormat x = filter.GetData();
+                                        ^
+Error[Pe135]: class "Filter" (declared at line 6 of
+          "C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Applicati
+          on\Filter.hpp") has no member "GetData"
+     13              auto f = Format::GetBlueToothFilterFormat(x);
+     14              //auto temp = std::get<0>(f) ;
+     15              bluetooth.Send(f) ;
+     16              Sleep(1000ms) ;
+     17            }
+     18          }
+
+Errors: 1
+Warnings: 2

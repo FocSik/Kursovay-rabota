@@ -2380,6 +2380,9 @@
             <name>$PROJ_DIR$\AHardware\DMA.hpp</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\AHardware\Format.hpp</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\AHardware\USART.hpp</name>
         </file>
         <file>
@@ -2401,13 +2404,22 @@
             <name>$PROJ_DIR$\Application\IBluetoothDriver.hpp</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Application\Led.hpp</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\Application\VariableTask.hpp</name>
         </file>
         <file>
             <name>$PROJ_DIR$\Application\Vlaznost.hpp</name>
+        </file>
+    </group>
+    <group>
+        <name>MyTask</name>
+        <file>
+            <name>$PROJ_DIR$\MyTask\BluetoothDirector.cpp</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MyTask\BluetoothDirector.hpp</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MyTask\BluetoothTask.hpp</name>
         </file>
     </group>
     <group>
