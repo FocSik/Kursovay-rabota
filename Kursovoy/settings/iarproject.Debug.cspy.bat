@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\settings\iarproject.Debug.general.xcl" --backend -f "C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\settings\iarproject.Debug.driver.xcl" 
+"D:\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\settings\iarproject.Debug.general.xcl" --backend -f "C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\settings\iarproject.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\settings\iarproject.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\settings\iarproject.Debug.driver.xcl" 
+"D:\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\settings\iarproject.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\settings\iarproject.Debug.driver.xcl" 
 
 @echo off 
 :end

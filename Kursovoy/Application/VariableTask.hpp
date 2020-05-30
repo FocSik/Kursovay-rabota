@@ -16,16 +16,12 @@ using namespace::OsWrapper ;
 //pointer to MailBox in spase OsWrapper
 using tMailBox = OsWrapper::MailBox<uint32_t, 1> ;
 
-
-
 template <typename myADC>
 class VariableTask : public OsWrapper::Thread<512> 
 {
 private:
-
-  
   OsWrapper::Event& myEvent;  
-
+  inline static float value;
   
 public:
   void Execute() override
@@ -36,8 +32,6 @@ public:
   
    for( ; ;)
   {
-   
-
   myADC::On(); //vkluchaen adc
   myADC::Start();
   myADC::GetCode();
@@ -53,11 +47,15 @@ public:
   Filter myFilter;
   myFilter.Update(myVlaznost.GetValue());
   myFilter.GetOldFilterValue(myVlaznost.GetValue());
-  
+  value = myFilter.GetOldFilterValue(myVlaznost.GetValue());
   std::cout << "CodeVlaznost: " <<  myFilter.GetOldFilterValue(myVlaznost.GetValue()) << std::endl;
 
     Sleep(100ms);
   } 
+  }
+  
+  static float GetFilteredValue() {
+    return value;
   }
   
   VariableTask(OsWrapper::Event& event): myEvent(event)

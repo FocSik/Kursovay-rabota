@@ -4,7 +4,8 @@
 #include "susudefs.hpp"                 //for susustring
 #include "Bluetooth.hpp"                //for blupup
 #include "Format.hpp"                   //for tuple 
-#include "Filter.hpp"
+#include "VariableTask.hpp"
+
 
 using namespace std ;
 
@@ -12,9 +13,10 @@ class BluetoothDirector: public OsWrapper::Thread<512> {
 private:
   Bluetooth& bluetooth ;
   Format format ;
-  Filter& filter;
+  Filter myFilter;
+  Vlaznost myVlaznost; 
 
 public:
-  BluetoothDirector (Bluetooth& mybluetooth, Filter& myfilter); 
+  BluetoothDirector (Bluetooth& mybluetooth); 
   void Execute() override;
 } ;

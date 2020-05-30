@@ -1,112 +1,740 @@
 ###############################################################################
 #
-# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         28/May/2020  13:40:57
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         30/May/2020  11:09:22
 # Copyright 1999-2019 IAR Systems AB.
 #
 #    Cpu mode     =  
 #    Endian       =  little
 #    Source file  =
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
+#        C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp
 #    Command line =
-#        -f C:\Users\FocSik\AppData\Local\Temp\EW8C04.tmp
-#        (C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
-#        -lC
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
-#        -lA
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
-#        -o C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj
+#        -f C:\Users\FocSik\AppData\Local\Temp\EW68B5.tmp
+#        ("C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp"
+#        -lC "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List"
+#        -lA "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List"
+#        -o "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\Obj"
 #        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
 #        --no_clustering --no_scheduling --debug --endian=little
 #        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D:\IAR
 #        Systems\Embedded Workbench 8.3\arm\inc\c\DLib_Config_Normal.h" -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\ -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\Common\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\MemMang\
-#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTasks\
-#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Common\
-#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\CMSIS\ -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Diagnostic\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\GpioPort\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\IrqController\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Pin\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Port\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Atomic\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\
-#        -I
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\Singleton\
+#        "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\Common\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\MemMang\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Common\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\CMSIS\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Application\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Application\Diagnostic\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\AHardware\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\AHardware\GpioPort\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\AHardware\IrqController\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Pin\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Port\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Atomic\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common\"
+#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common\Singleton\"
 #        -Ol --c++ --no_exceptions --no_rtti)
 #    Locale       =  C
 #    List file    =
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List\BluetoothDirector.lst
+#        C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List\BluetoothDirector.lst
 #    Object file  =
-#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj\BluetoothDirector.o
+#        C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\Obj\BluetoothDirector.o
 #
 ###############################################################################
 
-C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
+C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@ @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp
       1          #include "BluetoothDirector.hpp" 
+Warning[Ms014]: some characters could not be correctly encoded in
+          "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
+          @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List
+          \BluetoothDirector.s", and have been replaced with '@'. The first
+          such character has unicode code point 0x43a ("@")
 
-      sprintf(str, "\%s%.3f %s\n", "Filter: ", std::get<1>(data), (std::get<0>(data)).GetString()) ;
-                    ^
-"C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\Format.hpp",15  Warning[Pe192]: 
-          unrecognized character escape sequence
+   \                                 In section .text, align 2
+   \   __interwork __vfp char *std::_Addressof<char>(char &, std::false_type)
+   \                     _ZSt10_AddressofIcEPT_RS0_St17integral_constantIbLb0EE: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
 
-      sprintf(str, "\%s%.3f %s", "Filter: ", std::get<1>(data), (std::get<0>(data)).GetString()) ;
-                    ^
-"C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\Format.hpp",22  Warning[Pe192]: 
-          unrecognized character escape sequence
-      2          #include "Format.hpp"
-      3          
-      4          BluetoothDirector::BluetoothDirector(Bluetooth& mybluetooth, Filter& myfilter): bluetooth(mybluetooth), filter(myfilter) {}; 
-      5          
-      6          void BluetoothDirector::Execute() { 
-      7            for (;;) {
-      8              //SusuString<5> name;
-      9              //name.Set("C");
-     10              //float Value = 21;
-     11              //vFormat x = std::make_pair(name,Value);
-     12              vFormat x = filter.GetData();
-                                        ^
-Error[Pe135]: class "Filter" (declared at line 6 of
-          "C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Applicati
-          on\Filter.hpp") has no member "GetData"
-     13              auto f = Format::GetBlueToothFilterFormat(x);
-     14              //auto temp = std::get<0>(f) ;
-     15              bluetooth.Send(f) ;
-     16              Sleep(1000ms) ;
-     17            }
-     18          }
+   \                                 In section .text, align 2
+   \   __interwork __vfp char *std::addressof<char>(char &)
+   \                     _ZSt9addressofIcEPT_RS0_: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZSt10_AddressofIcEPT_RS0_St17integral_constantIbLb0EE
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
 
-Errors: 1
-Warnings: 2
+   \                                 In section .text, align 2
+   \   __interwork __vfp char const *std::_Unchecked<char const *>(char const *)
+   \                     _ZSt10_UncheckedIPKcET_S2_: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::_Scalar_ptr_iterator_tag std::_Ptr_cat(char const *, char *)
+   \                     _ZSt8_Ptr_catPKcPc: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::_Array_const_iterator<char, 40U>::_Array_const_iterator(char const *, size_t)
+   \                     _ZNSt21_Array_const_iteratorIcLj40EEC1EPKcj: (+1)
+   \        0x0   0x4411             ADD      R1,R1,R2
+   \        0x2   0x6001             STR      R1,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::_Array_const_iterator<char, 40U>::subobject _Array_const_iterator(char const *, size_t)
+   \                     _ZNSt21_Array_const_iteratorIcLj40EEC2EPKcj: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZNSt21_Array_const_iteratorIcLj40EEC1EPKcj
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::_Array_const_iterator<char, 40U> &std::_Array_const_iterator<char, 40U>::_Rechecked(char const *)
+   \                     _ZNSt21_Array_const_iteratorIcLj40EE10_RecheckedEPKc: (+1)
+   \        0x0   0x6001             STR      R1,[R0, #+0]
+   \        0x2   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char const * std::_Array_const_iterator<char, 40U>::_Unchecked() const
+   \                     _ZNKSt21_Array_const_iteratorIcLj40EE10_UncheckedEv: (+1)
+   \        0x0   0x6800             LDR      R0,[R0, #+0]
+   \        0x2   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::_Array_iterator<char, 40U>::_Array_iterator(char *, size_t)
+   \                     _ZNSt15_Array_iteratorIcLj40EEC1EPcj: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZNSt21_Array_const_iteratorIcLj40EEC2EPKcj
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::_Array_iterator<char, 40U> &std::_Array_iterator<char, 40U>::_Rechecked(char *)
+   \                     _ZNSt15_Array_iteratorIcLj40EE10_RecheckedEPc: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZNSt21_Array_const_iteratorIcLj40EE10_RecheckedEPKc
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char * std::_Array_iterator<char, 40U>::_Unchecked() const
+   \                     _ZNKSt15_Array_iteratorIcLj40EE10_UncheckedEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZNKSt21_Array_const_iteratorIcLj40EE10_UncheckedEv
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char * std::_Unchecked<char, 40U>(std::_Array_iterator<char, 40U>)
+   \                     _ZSt10_UncheckedIcLj40EENSt15_Array_iteratorIT_XT0_EE15_Unchecked_typeES2_: (+1)
+   \        0x0   0xB501             PUSH     {R0,LR}
+   \        0x2   0x4668             MOV      R0,SP
+   \        0x4   0x....'....        BL       _ZNKSt15_Array_iteratorIcLj40EE10_UncheckedEv
+   \        0x8   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::_Array_iterator<char, 40U> &std::_Rechecked<char, 40U>(std::_Array_iterator<char, 40U> &, char *)
+   \                     _ZSt10_RecheckedIcLj40EERSt15_Array_iteratorIT_XT0_EES3_NS2_15_Unchecked_typeE: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZNSt15_Array_iteratorIcLj40EE10_RecheckedEPc
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char *std::_Copy_impl<char const *, char *>(char const *, char const *, char *, std::_Scalar_ptr_iterator_tag)
+   \                     _ZSt10_Copy_implIPKcPcET0_T_S4_S3_St24_Scalar_ptr_iterator_tag: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x000C             MOVS     R4,R1
+   \        0x4   0x0015             MOVS     R5,R2
+   \        0x6   0x1A24             SUBS     R4,R4,R0
+   \        0x8   0x0022             MOVS     R2,R4
+   \        0xA   0x002E             MOVS     R6,R5
+   \        0xC   0x0001             MOVS     R1,R0
+   \        0xE   0x0030             MOVS     R0,R6
+   \       0x10   0x....'....        BL       __aeabi_memmove
+   \       0x14   0xEB05 0x0004      ADD      R0,R5,R4
+   \       0x18   0xBD70             POP      {R4-R6,PC}       ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp char * std::_Copy_impl<char const *, char *>(char const *, char const *, char *)
+   \                     _ZSt10_Copy_implIPKcPcET0_T_S4_S3_: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x0016             MOVS     R6,R2
+   \        0x8   0x0031             MOVS     R1,R6
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0x....'....        BL       _ZSt8_Ptr_catPKcPc
+   \       0x10   0x0003             MOVS     R3,R0
+   \       0x12   0x0032             MOVS     R2,R6
+   \       0x14   0x0029             MOVS     R1,R5
+   \       0x16   0x0020             MOVS     R0,R4
+   \       0x18   0x....'....        BL       _ZSt10_Copy_implIPKcPcET0_T_S4_S3_St24_Scalar_ptr_iterator_tag
+   \       0x1C   0xBD70             POP      {R4-R6,PC}       ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::array<char, 40U>::iterator std::copy<char const *, std::array<char, 40U>::iterator>(char const *, char const *, std::array<char, 40U>::iterator)
+   \                     _ZSt4copyIPKcSt15_Array_iteratorIcLj40EEET0_T_S5_S4_: (+1)
+   \        0x0   0xB576             PUSH     {R1,R2,R4-R6,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x9801             LDR      R0,[SP, #+4]
+   \        0x8   0x....'....        BL       _ZSt10_UncheckedIcLj40EENSt15_Array_iteratorIT_XT0_EE15_Unchecked_typeES2_
+   \        0xC   0x0006             MOVS     R6,R0
+   \        0xE   0x0028             MOVS     R0,R5
+   \       0x10   0x....'....        BL       _ZSt10_UncheckedIPKcET_S2_
+   \       0x14   0x0005             MOVS     R5,R0
+   \       0x16   0x0020             MOVS     R0,R4
+   \       0x18   0x....'....        BL       _ZSt10_UncheckedIPKcET_S2_
+   \       0x1C   0x0032             MOVS     R2,R6
+   \       0x1E   0x0029             MOVS     R1,R5
+   \       0x20   0x....'....        BL       _ZSt10_Copy_implIPKcPcET0_T_S4_S3_
+   \       0x24   0x0001             MOVS     R1,R0
+   \       0x26   0xA801             ADD      R0,SP,#+4
+   \       0x28   0x....'....        BL       _ZSt10_RecheckedIcLj40EERSt15_Array_iteratorIT_XT0_EES3_NS2_15_Unchecked_typeE
+   \       0x2C   0x6800             LDR      R0,[R0, #+0]
+   \       0x2E   0xBD76             POP      {R1,R2,R4-R6,PC}  ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp std::array<char, 40U>::iterator std::array<char, 40U>::begin()
+   \                     _ZNSt5arrayIcLj40EE5beginEv: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZSt9addressofIcEPT_RS0_
+   \        0x6   0x2200             MOVS     R2,#+0
+   \        0x8   0x0001             MOVS     R1,R0
+   \        0xA   0x4668             MOV      R0,SP
+   \        0xC   0x....'....        BL       _ZNSt15_Array_iteratorIcLj40EEC1EPcj
+   \       0x10   0x6800             LDR      R0,[R0, #+0]
+   \       0x12   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp SusuString<40U>::SusuString()
+   \                     _ZN10SusuStringILj40EEC1Ev: (+1)
+   \        0x0   0x2128             MOVS     R1,#+40
+   \        0x2   0x6281             STR      R1,[R0, #+40]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void SusuString<40U>::Set<40U>(char const (&)[40])
+   \                     _ZN10SusuStringILj40EE3SetILj40EEEvRAT__Kc: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x000C             MOVS     R4,R1
+   \        0x4   0x....'....        BL       _ZNSt5arrayIcLj40EE5beginEv
+   \        0x8   0x0002             MOVS     R2,R0
+   \        0xA   0xF114 0x0127      ADDS     R1,R4,#+39
+   \        0xE   0x0020             MOVS     R0,R4
+   \       0x10   0x....'....        BL       _ZSt4copyIPKcSt15_Array_iteratorIcLj40EEET0_T_S5_S4_
+   \       0x14   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp OsWrapper::TicksPerSecond std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+   \                     _ZNSt6chrono13duration_castINS_8durationIjSt5ratioILx10ELx1000EEEExS2_ILx1ELx1000EEEENSt9enable_ifIXsr3std6chrono12_Is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+   \        0x2   0x....'....        BL       _ZNKSt6chrono8durationIxSt5ratioILx1ELx1000EEE5countEv
+   \        0x6   0x220A             MOVS     R2,#+10
+   \        0x8   0x2300             MOVS     R3,#+0
+   \        0xA   0x....'....        BL       __aeabi_ldivmod
+   \        0xE   0x9001             STR      R0,[SP, #+4]
+   \       0x10   0xA901             ADD      R1,SP,#+4
+   \       0x12   0x4668             MOV      R0,SP
+   \       0x14   0x....'....        BL       _ZNSt6chrono8durationIjSt5ratioILx10ELx1000EEEC1IjvEERKT_
+   \       0x18   0x9800             LDR      R0,[SP, #+0]
+   \       0x1A   0xBD0E             POP      {R1-R3,PC}       ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+   \                     _ZNSt6chrono8durationIjSt5ratioILx10ELx1000EEEC1IjvEERKT_: (+1)
+   \        0x0   0x6809             LDR      R1,[R1, #+0]
+   \        0x2   0x6001             STR      R1,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp __int64_t std::chrono::duration<__int64_t, std::milli>::count() const
+   \                     _ZNKSt6chrono8durationIxSt5ratioILx1ELx1000EEE5countEv: (+1)
+   \        0x0   0xE9D0 0x0100      LDRD     R0,R1,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp uint32_t std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+   \                     _ZNKSt6chrono8durationIjSt5ratioILx10ELx1000EEE5countEv: (+1)
+   \        0x0   0x6800             LDR      R0,[R0, #+0]
+   \        0x2   0x4770             BX       LR               ;; return
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::system_clock::is_steady
+   \                     _ZNSt6chrono12system_clock9is_steadyE:
+   \        0x0   0x00               DC8 0
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::system_clock::is_monotonic
+   \                     _ZNSt6chrono12system_clock12is_monotonicE:
+   \        0x0   0x00               DC8 0
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::steady_clock::is_steady
+   \                     _ZNSt6chrono12steady_clock9is_steadyE:
+   \        0x0   0x01               DC8 1
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void OsWrapper::RtosWrapper::wSleep(uint32_t)
+   \                     _ZN9OsWrapper11RtosWrapper6wSleepEj: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       vTaskDelay
+   \        0x6   0xBD01             POP      {R0,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::IThread::subobject IThread()
+   \                     _ZN9OsWrapper7IThreadC2Ev: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZN9OsWrapper7IThreadC1Ev
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::IThread::IThread()
+   \                     _ZN9OsWrapper7IThreadC1Ev: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x6541             STR      R1,[R0, #+84]
+   \        0x4   0x2100             MOVS     R1,#+0
+   \        0x6   0x6581             STR      R1,[R0, #+88]
+   \        0x8   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+   \                     _ZN9OsWrapper7IThread5SleepENSt6chrono8durationIxSt5ratioILx1ELx1000EEEE: (+1)
+   \        0x0   0xB583             PUSH     {R0,R1,R7,LR}
+   \        0x2   0xB082             SUB      SP,SP,#+8
+   \        0x4   0xA802             ADD      R0,SP,#+8
+   \        0x6   0x....'....        BL       _ZNSt6chrono13duration_castINS_8durationIjSt5ratioILx10ELx1000EEEExS2_ILx1ELx1000EEEENSt9enable_ifIXsr3std6chrono12_Is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
+   \        0xA   0x9000             STR      R0,[SP, #+0]
+   \        0xC   0x4668             MOV      R0,SP
+   \        0xE   0x....'....        BL       _ZNKSt6chrono8durationIjSt5ratioILx10ELx1000EEE5countEv
+   \       0x12   0x....'....        BL       _ZN9OsWrapper11RtosWrapper6wSleepEj
+   \       0x16   0xB005             ADD      SP,SP,#+20
+   \       0x18   0xBD00             POP      {PC}             ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::Thread<512U>::subobject Thread()
+   \                     _ZN9OsWrapper6ThreadILj512EEC2Ev: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZN9OsWrapper6ThreadILj512EEC1Ev
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::Thread<512U>::Thread()
+   \                     _ZN9OsWrapper6ThreadILj512EEC1Ev: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN9OsWrapper7IThreadC2Ev
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void Bluetooth::Send(SusuString<40U> &)
+   \                     _ZN9Bluetooth4SendER10SusuStringILj40EE: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x0002             MOVS     R2,R0
+   \        0x4   0x6810             LDR      R0,[R2, #+0]
+   \        0x6   0x6812             LDR      R2,[R2, #+0]
+   \        0x8   0x6812             LDR      R2,[R2, #+0]
+   \        0xA   0x6812             LDR      R2,[R2, #+0]
+   \        0xC   0x4790             BLX      R2
+   \        0xE   0xBD01             POP      {R0,PC}          ;; return
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp SusuString<40U> Format::GetBlueToothFormat(float)
+   \                     _ZN6Format18GetBlueToothFormatEf: (+1)
+   \        0x0   0xB518             PUSH     {R3,R4,LR}
+   \        0x2   0xB095             SUB      SP,SP,#+84
+   \        0x4   0x0004             MOVS     R4,R0
+   \        0x6   0x480D             LDR.N    R0,??GetBlueToothFormat_0
+   \        0x8   0x9002             STR      R0,[SP, #+8]
+   \        0xA   0xEE10 0x0A10      VMOV     R0,S0
+   \        0xE   0x....'....        BL       __aeabi_f2d
+   \       0x12   0xE9CD 0x0100      STRD     R0,R1,[SP, #+0]
+   \       0x16   0x4A0A             LDR.N    R2,??GetBlueToothFormat_0+0x4
+   \       0x18   0x490A             LDR.N    R1,??GetBlueToothFormat_0+0x8
+   \       0x1A   0xA80B             ADD      R0,SP,#+44
+   \       0x1C   0x....'....        BL       sprintf
+   \       0x20   0x4668             MOV      R0,SP
+   \       0x22   0x....'....        BL       _ZN10SusuStringILj40EEC1Ev
+   \       0x26   0xA90B             ADD      R1,SP,#+44
+   \       0x28   0x....'....        BL       _ZN10SusuStringILj40EE3SetILj40EEEvRAT__Kc
+   \       0x2C   0x0020             MOVS     R0,R4
+   \       0x2E   0x4669             MOV      R1,SP
+   \       0x30   0x222C             MOVS     R2,#+44
+   \       0x32   0x....'....        BL       __aeabi_memcpy4
+   \       0x36   0xB016             ADD      SP,SP,#+88
+   \       0x38   0xBD10             POP      {R4,PC}          ;; return
+   \       0x3A   0xBF00             Nop      
+   \                     ??GetBlueToothFormat_0:
+   \       0x3C   0x....'....        DC32     _ZZN6Format18GetBlueToothFormatEfEs_1
+   \       0x40   0x....'....        DC32     _ZZN6Format18GetBlueToothFormatEfEs_0
+   \       0x44   0x....'....        DC32     _ZZN6Format18GetBlueToothFormatEfEs
+
+   \                                 In section .text, align 4
+   \   __code __interwork __vfp Vlaznost::Vlaznost()
+   \                     _ZN8VlaznostC1Ev: (+1)
+   \        0x0   0x4905             LDR.N    R1,??Vlaznost_0  ;; 0x3f8c6d83
+   \        0x2   0x6001             STR      R1,[R0, #+0]
+   \        0x4   0x4905             LDR.N    R1,??Vlaznost_0+0x4  ;; 0x3d8a5eab
+   \        0x6   0x6041             STR      R1,[R0, #+4]
+   \        0x8   0x4905             LDR.N    R1,??Vlaznost_0+0x8  ;; 0xb8270f08
+   \        0xA   0x6081             STR      R1,[R0, #+8]
+   \        0xC   0x4905             LDR.N    R1,??Vlaznost_0+0xC  ;; 0x322a14a9
+   \        0xE   0x60C1             STR      R1,[R0, #+12]
+   \       0x10   0x2100             MOVS     R1,#+0
+   \       0x12   0x6101             STR      R1,[R0, #+16]
+   \       0x14   0x4770             BX       LR               ;; return
+   \       0x16   0xBF00             Nop      
+   \                     ??Vlaznost_0:
+   \       0x18   0x3F8C'6D83        DC32     0x3f8c6d83
+   \       0x1C   0x3D8A'5EAB        DC32     0x3d8a5eab
+   \       0x20   0xB827'0F08        DC32     0xb8270f08
+   \       0x24   0x322A'14A9        DC32     0x322a14a9
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp float Vlaznost::GetValue()
+   \                     _ZN8Vlaznost8GetValueEv: (+1)
+   \        0x0   0xED90 0x0A04      VLDR     S0,[R0, #+16]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp Filter::Filter()
+   \                     _ZN6FilterC1Ev: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x6001             STR      R1,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .rodata, align 4
+   \   __absolute float const Filter::RC
+   \                     _ZN6Filter2RCE:
+   \        0x0   0x447A'0000        DC32 0x447a'0000
+
+   \                                 In section .rodata, align 4
+   \   __absolute float const Filter::dt
+   \                     _ZN6Filter2dtE:
+   \        0x0   0x42C8'0000        DC32 0x42c8'0000
+
+   \                                 In section .bss, align 4
+   \   __absolute float const Filter::tau
+   \                     _ZN6Filter3tauE:
+   \        0x0                      DS8 4
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp float Filter::GetOldFilterValue(float)
+   \                     _ZN6Filter17GetOldFilterValueEf: (+1)
+   \        0x0   0xEDD0 0x0A00      VLDR     S1,[R0, #0]
+   \        0x4   0xEE70 0x0A60      VSUB.F32 S1,S0,S1
+   \        0x8   0x4904             LDR.N    R1,??GetOldFilterValue_0
+   \        0xA   0xED91 0x1A00      VLDR     S2,[R1, #0]
+   \        0xE   0xED90 0x0A00      VLDR     S0,[R0, #0]
+   \       0x12   0xEE00 0x0A81      VMLA.F32 S0,S1,S2
+   \       0x16   0xED80 0x0A00      VSTR     S0,[R0, #0]
+   \       0x1A   0x4770             BX       LR               ;; return
+   \                     ??GetOldFilterValue_0:
+   \       0x1C   0x....'....        DC32     _ZN6Filter3tauE
+      2          
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __code __interwork __vfp BluetoothDirector::subobject BluetoothDirector(Bluetooth &)
+   \                     _ZN17BluetoothDirectorC2ER9Bluetooth: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....'....        BL       _ZN17BluetoothDirectorC1ER9Bluetooth
+   \        0x6   0xBD02             POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+      3          BluetoothDirector::BluetoothDirector(Bluetooth& mybluetooth): bluetooth(mybluetooth){}; 
+   \                     _ZN17BluetoothDirectorC1ER9Bluetooth: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x0020             MOVS     R0,R4
+   \        0x8   0x....'....        BL       _ZN9OsWrapper6ThreadILj512EEC2Ev
+   \        0xC   0x....             LDR.N    R0,??DataTable3_3
+   \        0xE   0x6020             STR      R0,[R4, #+0]
+   \       0x10   0xF8C4 0x585C      STR      R5,[R4, #+2140]
+   \       0x14   0xF604 0x0064      ADDW     R0,R4,#+2148
+   \       0x18   0x....'....        BL       _ZN6FilterC1Ev
+   \       0x1C   0xF604 0x0068      ADDW     R0,R4,#+2152
+   \       0x20   0x....'....        BL       _ZN8VlaznostC1Ev
+   \       0x24   0x0020             MOVS     R0,R4
+   \       0x26   0xBD32             POP      {R1,R4,R5,PC}    ;; return
+      4          
+
+   \                                 In section .text, align 2, keep-with-next
+      5          void BluetoothDirector::Execute() { 
+   \                     _ZN17BluetoothDirector7ExecuteEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0xB096             SUB      SP,SP,#+88
+   \        0x4   0x0004             MOVS     R4,R0
+      6              float x = myFilter.GetOldFilterValue(myVlaznost.GetValue()); //здесь должен быть метод, возващающий отфильрованное значение влажности;
+   \        0x6   0xF604 0x0068      ADDW     R0,R4,#+2152
+   \        0xA   0x....'....        BL       _ZN8Vlaznost8GetValueEv
+   \        0xE   0xF604 0x0064      ADDW     R0,R4,#+2148
+   \       0x12   0x....'....        BL       _ZN6Filter17GetOldFilterValueEf
+   \       0x16   0x4668             MOV      R0,SP
+   \       0x18   0x....'....        BL       _ZN6Format18GetBlueToothFormatEf
+      7              auto f = Format::GetBlueToothFormat(x);
+   \       0x1C   0xA80B             ADD      R0,SP,#+44
+   \       0x1E   0x4669             MOV      R1,SP
+   \       0x20   0x222C             MOVS     R2,#+44
+   \       0x22   0x....'....        BL       __aeabi_memcpy4
+      8              bluetooth.Send(f) ;
+   \       0x26   0xA90B             ADD      R1,SP,#+44
+   \       0x28   0xF8D4 0x085C      LDR      R0,[R4, #+2140]
+   \       0x2C   0x....'....        BL       _ZN9Bluetooth4SendER10SusuStringILj40EE
+   \       0x30   0x....             LDR.N    R2,??DataTable3_4
+   \       0x32   0xE9D2 0x0100      LDRD     R0,R1,[R2, #+0]
+      9              Sleep(1000ms) ;
+   \       0x36   0x....'....        BL       _ZN9OsWrapper7IThread5SleepENSt6chrono8durationIxSt5ratioILx1ELx1000EEEE
+     10            }
+   \       0x3A   0xB016             ADD      SP,SP,#+88
+   \       0x3C   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .rodata, align 8
+   \                     ?_0:
+   \        0x0   0x0000'0000'0      DC64 1'000
+   \              000'03E8     
+
+   \                                 In section .text, align 4, keep-with-next
+   \   static __intrinsic __interwork __vfp void __sti__routine()
+   \                     __sti__routine: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x....             LDR.N    R1,??DataTable3_1
+   \        0x4   0x7808             LDRB     R0,[R1, #+0]
+   \        0x6   0x2800             CMP      R0,#+0
+   \        0x8   0xD10C             BNE.N    ??__sti__routine_0
+   \        0xA   0x2001             MOVS     R0,#+1
+   \        0xC   0x7008             STRB     R0,[R1, #+0]
+   \        0xE   0xED9F 0x....      VLDR.W   S0,??DataTable3  ;; 0xbdcccccd
+   \       0x12   0x....'....        BL       expf
+   \       0x16   0xEEF7 0x0A00      VMOV.F32 S1,#1.0
+   \       0x1A   0xEE30 0x0AC0      VSUB.F32 S0,S1,S0
+   \       0x1E   0x....             LDR.N    R0,??DataTable3_2
+   \       0x20   0xED80 0x0A00      VSTR     S0,[R0, #0]
+   \                     ??__sti__routine_0: (+1)
+   \       0x24   0xBD01             POP      {R0,PC}          ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0xBDCC'CCCD        DC32     0xbdcccccd
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_1:
+   \        0x0   0x....'....        DC32     _ZGVN6Filter3tauE
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_2:
+   \        0x0   0x....'....        DC32     _ZN6Filter3tauE
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_3:
+   \        0x0   0x....'....        DC32     _ZTV17BluetoothDirector+0x8
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_4:
+   \        0x0   0x....'....        DC32     ?_0
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   Bluetooth::Send(SusuString<40U> &)
+         8   -- Indirect call
+      16   BluetoothDirector::BluetoothDirector(Bluetooth &)
+        16   -> Filter::Filter()
+        16   -> OsWrapper::Thread<512U>::subobject Thread()
+        16   -> Vlaznost::Vlaznost()
+      96   BluetoothDirector::Execute()
+        96   -> Bluetooth::Send(SusuString<40U> &)
+        96   -> Filter::GetOldFilterValue(float)
+        96   -> Format::GetBlueToothFormat(float)
+        96   -> OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+        96   -> Vlaznost::GetValue()
+        96   -> __aeabi_memcpy4
+       8   BluetoothDirector::subobject BluetoothDirector(Bluetooth &)
+         8   -> BluetoothDirector::BluetoothDirector(Bluetooth &)
+       0   Filter::Filter()
+       0   Filter::GetOldFilterValue(float)
+      96   Format::GetBlueToothFormat(float)
+        96   -> SusuString<40U>::Set<40U>(char const (&)[40])
+        96   -> SusuString<40U>::SusuString()
+        96   -> __aeabi_f2d
+        96   -> __aeabi_memcpy4
+        96   -> sprintf
+       0   OsWrapper::IThread::IThread()
+      24   OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+        24   -> OsWrapper::RtosWrapper::wSleep(uint32_t)
+        24   -> std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+        24   -> std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+       8   OsWrapper::IThread::subobject IThread()
+         8   -> OsWrapper::IThread::IThread()
+       8   OsWrapper::RtosWrapper::wSleep(uint32_t)
+         8   -> vTaskDelay
+       8   OsWrapper::Thread<512U>::Thread()
+         8   -> OsWrapper::IThread::subobject IThread()
+       8   OsWrapper::Thread<512U>::subobject Thread()
+         8   -> OsWrapper::Thread<512U>::Thread()
+       8   SusuString<40U>::Set<40U>(char const (&)[40])
+         8   -> std::array<char, 40U>::begin()
+         8   -> std::copy<char const *, std::array<char, 40U>::iterator>(char const *, char const *, std::array<char, 40U>::iterator)
+       0   SusuString<40U>::SusuString()
+       0   Vlaznost::GetValue()
+       0   Vlaznost::Vlaznost()
+       8   __sti__routine()
+         8   -> expf
+       0   std::_Addressof<char>(char &, std::false_type)
+       0   std::_Array_const_iterator<char, 40U>::_Array_const_iterator(char const *, size_t)
+       0   std::_Array_const_iterator<char, 40U>::_Rechecked(char const *)
+       0   std::_Array_const_iterator<char, 40U>::_Unchecked() const
+       8   std::_Array_const_iterator<char, 40U>::subobject _Array_const_iterator(char const *, size_t)
+         8   -> std::_Array_const_iterator<char, 40U>::_Array_const_iterator(char const *, size_t)
+       8   std::_Array_iterator<char, 40U>::_Array_iterator(char *, size_t)
+         8   -> std::_Array_const_iterator<char, 40U>::subobject _Array_const_iterator(char const *, size_t)
+       8   std::_Array_iterator<char, 40U>::_Rechecked(char *)
+         8   -> std::_Array_const_iterator<char, 40U>::_Rechecked(char const *)
+       8   std::_Array_iterator<char, 40U>::_Unchecked() const
+         8   -> std::_Array_const_iterator<char, 40U>::_Unchecked() const
+      16   std::_Copy_impl<char const *, char *>(char const *, char const *, char *)
+        16   -> std::_Copy_impl<char const *, char *>(char const *, char const *, char *, std::_Scalar_ptr_iterator_tag)
+        16   -> std::_Ptr_cat(char const *, char *)
+      16   std::_Copy_impl<char const *, char *>(char const *, char const *, char *, std::_Scalar_ptr_iterator_tag)
+        16   -> __aeabi_memmove
+       0   std::_Ptr_cat(char const *, char *)
+       8   std::_Rechecked<char, 40U>(std::_Array_iterator<char, 40U> &, char *)
+         8   -> std::_Array_iterator<char, 40U>::_Rechecked(char *)
+       0   std::_Unchecked<char const *>(char const *)
+       8   std::_Unchecked<char, 40U>(std::_Array_iterator<char, 40U>)
+         8   -> std::_Array_iterator<char, 40U>::_Unchecked() const
+       8   std::addressof<char>(char &)
+         8   -> std::_Addressof<char>(char &, std::false_type)
+       8   std::array<char, 40U>::begin()
+         8   -> std::_Array_iterator<char, 40U>::_Array_iterator(char *, size_t)
+         8   -> std::addressof<char>(char &)
+       0   std::chrono::duration<__int64_t, std::milli>::count() const
+       0   std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+       0   std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+      16   std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+        16   -> std::chrono::duration<__int64_t, std::milli>::count() const
+        16   -> std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+        16 __aeabi_ldivmod
+      24   std::copy<char const *, std::array<char, 40U>::iterator>(char const *, char const *, std::array<char, 40U>::iterator)
+        24   -> std::_Copy_impl<char const *, char *>(char const *, char const *, char *)
+        24   -> std::_Rechecked<char, 40U>(std::_Array_iterator<char, 40U> &, char *)
+        24   -> std::_Unchecked<char const *>(char const *)
+        24   -> std::_Unchecked<char, 40U>(std::_Array_iterator<char, 40U>)
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+       4  ??DataTable3_4
+       8  ?_0
+      16  Bluetooth::Send(SusuString<40U> &)
+      40  BluetoothDirector::BluetoothDirector(Bluetooth &)
+      62  BluetoothDirector::Execute()
+       8  BluetoothDirector::subobject BluetoothDirector(Bluetooth &)
+       6  Filter::Filter()
+      32  Filter::GetOldFilterValue(float)
+       4  Filter::RC
+       4  Filter::dt
+       4  Filter::tau
+      72  Format::GetBlueToothFormat(float)
+      10  OsWrapper::IThread::IThread()
+      26  OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+       8  OsWrapper::IThread::subobject IThread()
+       8  OsWrapper::RtosWrapper::wSleep(uint32_t)
+      14  OsWrapper::Thread<512U>::Thread()
+       8  OsWrapper::Thread<512U>::subobject Thread()
+      22  SusuString<40U>::Set<40U>(char const (&)[40])
+       6  SusuString<40U>::SusuString()
+       6  Vlaznost::GetValue()
+      40  Vlaznost::Vlaznost()
+      38  __sti__routine()
+       2  std::_Addressof<char>(char &, std::false_type)
+       6  std::_Array_const_iterator<char, 40U>::_Array_const_iterator(char const *, size_t)
+       4  std::_Array_const_iterator<char, 40U>::_Rechecked(char const *)
+       4  std::_Array_const_iterator<char, 40U>::_Unchecked() const
+       8  std::_Array_const_iterator<char, 40U>::subobject _Array_const_iterator(char const *, size_t)
+      14  std::_Array_iterator<char, 40U>::_Array_iterator(char *, size_t)
+      14  std::_Array_iterator<char, 40U>::_Rechecked(char *)
+       8  std::_Array_iterator<char, 40U>::_Unchecked() const
+      30  std::_Copy_impl<char const *, char *>(char const *, char const *, char *)
+      26  std::_Copy_impl<char const *, char *>(char const *, char const *, char *, std::_Scalar_ptr_iterator_tag)
+       2  std::_Ptr_cat(char const *, char *)
+       8  std::_Rechecked<char, 40U>(std::_Array_iterator<char, 40U> &, char *)
+       2  std::_Unchecked<char const *>(char const *)
+      10  std::_Unchecked<char, 40U>(std::_Array_iterator<char, 40U>)
+       8  std::addressof<char>(char &)
+      20  std::array<char, 40U>::begin()
+       6  std::chrono::duration<__int64_t, std::milli>::count() const
+       4  std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+       6  std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+      28  std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+       1  std::chrono::steady_clock::is_steady
+       1  std::chrono::system_clock::is_monotonic
+       1  std::chrono::system_clock::is_steady
+      48  std::copy<char const *, std::array<char, 40U>::iterator>(char const *, char const *, std::array<char, 40U>::iterator)
+     241  -- Other
+
+ 
+   5 bytes in section .bss
+   4 bytes in section .init_array
+ 255 bytes in section .rodata
+ 700 bytes in section .text
+ 
+ 172 bytes of CODE  memory (+ 532 bytes shared)
+   8 bytes of CONST memory (+ 247 bytes shared)
+   0 bytes of DATA  memory (+   5 bytes shared)
+
+Errors: none
+Warnings: 1

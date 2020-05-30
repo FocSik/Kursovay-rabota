@@ -38,7 +38,6 @@ while (!RCC::CFGR::SWS::Hsi::IsSet())
 
 }
 
-
 RCC::APB2ENR::SYSCFGEN::Enable::Set();
 RCC::APB2ENR::ADC1EN::Enable::Set();
 RCC::AHB1ENR::DMA2EN::Enable::Set();
@@ -59,27 +58,14 @@ OsWrapper::Event event(500ms, 1);
 //MyTask myTask(event, UserButton::GetInstance()); //FIXME ????? ??? ???????
 using myADC = ADC<ADC1>;
 
-VariableTask<myADC> myVariableTask (event);
+VariableTask<myADC> myVariableTask(event);
 
 BluetoothDriver<USART<USART2, 16000000U>> bluetoothdriver ;
 Bluetooth bluetooth(bluetoothdriver) ;
-BluetoothDirector myBluetoothDirector(bluetooth, myVariableTask) ;
+BluetoothDirector myBluetoothDirector(bluetooth) ;
 
-
-
-int main()
-{
-using namespace OsWrapper;
-//Rtos::CreateThread(myTask, "myTask", ThreadPriority::lowest); //FIXME Чисто для примера
-//Rtos::Start();
-
-
-
-Rtos::CreateThread(myVariableTask, "Execute", ThreadPriority::normal);
-Rtos::Start();
-
+int main() {
 using myUSART = USART<USART2, 16000000U>;
-
 UsartConfig USART2Config ;
 USART2Config.speed = Speed::Speed9600 ;
 USART2Config.stopbits = StopBits::OneBit ;
@@ -89,11 +75,11 @@ USART2Config.samplingmode = SamplingMode::Mode8 ;
 myUSART::Config(USART2Config);
 myUSART::On();
 
-  //for (;;) 
-  //{
-    //myUSART::SendData() ;
-    //for (auto i=0 ; i<10000000 ; i++) ;
-  //}
+using namespace OsWrapper;
+Rtos::CreateThread(myVariableTask, "Execute", ThreadPriority::normal);
+Rtos::CreateThread(myBluetoothDirector, "BluetoothDirector", ThreadPriority::normal) ; 
+Rtos::Start();
+
 
 return 0;
 }

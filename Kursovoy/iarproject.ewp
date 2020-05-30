@@ -355,7 +355,7 @@
                     <state>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR</state>
                     <state>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F</state>
                     <state>$PROJ_DIR$\Rtos\FreeRtos\portable\MemMang</state>
-                    <state>$PROJ_DIR$\MyTasks</state>
+                    <state>$PROJ_DIR$\MyTask</state>
                     <state>$PROJ_DIR$\Common</state>
                     <state>$PROJ_DIR$\CMSIS</state>
                     <state>$PROJ_DIR$\Application</state>

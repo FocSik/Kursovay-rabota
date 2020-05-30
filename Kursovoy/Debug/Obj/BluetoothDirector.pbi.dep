@@ -1,117 +1,130 @@
 BluetoothDirector.pbi: \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\register.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\registertype.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\registerbase.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Atomic\atomicutils.hpp \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\assert.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cassert \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\registerfield.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\accessmode.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\fieldvaluebase.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\dma2fieldvalues.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\dma2registers.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\DMA.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\ADC.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Vlaznost.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Filter.hpp \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\string \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\iostream \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\Format.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\IBluetoothDriver.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Bluetooth.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\eventmode.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos\rtoswrapper.hpp \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\ratio \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\chrono \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\susudefs.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\event_groups.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\timers.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\queue.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\semphr.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\list.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\task.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\mpu_wrappers.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iar_intrinsics_common.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iccarm_builtin.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\intrinsics.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portmacro.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\deprecated_definitions.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\portable.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\projdefs.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\FreeRTOSConfig.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\FreeRtos.h \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos\rtosdefs.hpp \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\tuple \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\errno.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cerrno \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\system_error \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\time32.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\time.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\ctime \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ctype.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cctype \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xlocinfo \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\typeinfo \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xstring \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\stdexcept \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\wctype.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cwctype \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\xlocale_lconv.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\xctype.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\locale.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\clocale \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\climits \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xlocale \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xiosbase \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\streambuf \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xlocnum \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\ios \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\ostream \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\istream \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\iterator \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\xatomic.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_string.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\string.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstring \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdio.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstdio \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\iosfwd \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\utility \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xutility \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\type_traits \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xxexception \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\exception \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\new \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\initializer_list \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stddef.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstddef \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xstddef \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\wchar.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cwchar \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xtr1common \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\xtgmath.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_float_setup.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\math.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cmath \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\limits.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\float.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cfloat \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\limits \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_stdlib.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ysizet.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdlib.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstdlib \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstdint \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xmemory0 \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xmemory \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\algorithm \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\MyTask/BluetoothDirector.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\Thread.hpp \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\array \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\Thread.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.hpp \
-  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\algorithm \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xmemory \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xmemory0 \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstdint \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  D:\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstdlib \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdlib.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ysizet.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_stdlib.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\limits \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cfloat \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\float.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\climits \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\limits.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cmath \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\math.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_float_setup.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\xtgmath.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xtr1common \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cwchar \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\wchar.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xstddef \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstddef \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stddef.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\initializer_list \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\new \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\exception \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xxexception \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\type_traits \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xutility \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\utility \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\iosfwd \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstdio \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdio.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstring \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\string.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_string.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\xatomic.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\iterator \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\istream \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\ostream \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\ios \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xlocnum \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\streambuf \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xiosbase \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xlocale \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\clocale \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\locale.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\xctype.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\xlocale_lconv.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cwctype \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\wctype.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\stdexcept \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xstring \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\typeinfo \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xlocinfo \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cctype \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ctype.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\ctime \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\time.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c/time32.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\system_error \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cerrno \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\errno.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\tuple \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos\rtosdefs.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\FreeRtos.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/..\FreeRTOSConfig.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/projdefs.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/portable.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/deprecated_definitions.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portmacro.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\intrinsics.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iccarm_builtin.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iar_intrinsics_common.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/mpu_wrappers.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\task.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/list.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\semphr.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/queue.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\queue.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\timers.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/task.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\event_groups.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/timers.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common\susudefs.hpp \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cassert \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\assert.h \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\FreeRTOSConfig.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\chrono \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\ratio \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos\rtoswrapper.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos/rtosdefs.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\eventmode.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application\Bluetooth.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application/IBluetoothDriver.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware\Format.hpp \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\iostream \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\string \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application\VariableTask.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\thread.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\mailbox.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\event.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper/eventmode.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware\ADC.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware/DMA.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\dma2registers.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\dma2fieldvalues.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/fieldvaluebase.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/accessmode.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/registerfield.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Atomic\atomicutils.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\registerbase.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/registertype.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\register.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/fieldvalue.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\accessmode.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application/Vlaznost.hpp \
+  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application/Filter.hpp

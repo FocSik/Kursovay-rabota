@@ -2,6 +2,7 @@
 
 #include <cmath> //For exp
 #include "Vlaznost.hpp"
+#include "Format.hpp"
 
 class Filter
 {
@@ -23,6 +24,7 @@ float GetOldFilterValue (float value)
 {
 float FilterValue = OldFilterValue + (value - OldFilterValue)*tau;
 OldFilterValue = FilterValue;
+vFormat GetOldFilterValue();
 return FilterValue;
 }
 };

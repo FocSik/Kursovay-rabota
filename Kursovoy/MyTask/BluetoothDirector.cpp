@@ -1,18 +1,10 @@
 #include "BluetoothDirector.hpp" 
-#include "Format.hpp"
 
-BluetoothDirector::BluetoothDirector(Bluetooth& mybluetooth, Filter& myfilter): bluetooth(mybluetooth), filter(myfilter) {}; 
+BluetoothDirector::BluetoothDirector(Bluetooth& mybluetooth): bluetooth(mybluetooth){}; 
 
 void BluetoothDirector::Execute() { 
-  for (;;) {
-    //SusuString<5> name;
-    //name.Set("C");
-    //float Value = 21;
-    //vFormat x = std::make_pair(name,Value);
-    vFormat x = filter.GetData();
-    auto f = Format::GetBlueToothFilterFormat(x);
-    //auto temp = std::get<0>(f) ;
+    float x = myFilter.GetOldFilterValue(myVlaznost.GetValue()); //здесь должен быть метод, возващающий отфильрованное значение влажности;
+    auto f = Format::GetBlueToothFormat(x);
     bluetooth.Send(f) ;
     Sleep(1000ms) ;
   }
-}
