@@ -1,7 +1,12 @@
 #pragma once
-#include "susudefs.hpp"
-#include <iostream> 
-#include <string> 
+#include "thread.hpp" //For definition of class Thread
+#include <array> //For std::array
+#include "VariableTask.hpp"
+#include "susudefs.hpp" // for SusuString
+#include "Filter.hpp"
+#include "USART.hpp"
+#include <iostream>
+#include <cstring> //For strlen
 
 using tFormat = std::tuple<SusuString<40>> ;
 using vFormat =  std::pair<SusuString<5U>, float>;

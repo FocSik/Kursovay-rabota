@@ -1,84 +1,76 @@
 ///////////////////////////////////////////////////////////////////////////////
 //
-// IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM        30/May/2020  11:09:22
+// IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM        30/May/2020  19:55:32
 // Copyright 1999-2019 IAR Systems AB.
 //
 //    Cpu mode     =  
 //    Endian       =  little
 //    Source file  =
-//        C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
 //    Command line =
-//        -f C:\Users\FocSik\AppData\Local\Temp\EW68B5.tmp
-//        ("C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp"
-//        -lC "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List"
-//        -lA "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List"
-//        -o "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\Obj"
+//        -f C:\Users\FocSik\AppData\Local\Temp\EW2BFF.tmp
+//        (C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
+//        -lC
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
+//        -lA
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
+//        -o
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj
 //        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
 //        --no_clustering --no_scheduling --debug --endian=little
 //        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D:\IAR
 //        Systems\Embedded Workbench 8.3\arm\inc\c\DLib_Config_Normal.h" -I
-//        "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\Common\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\MemMang\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Common\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\CMSIS\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Application\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Application\Diagnostic\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\AHardware\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\AHardware\GpioPort\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\AHardware\IrqController\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Pin\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Port\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Atomic\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common\"
-//        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common\Singleton\"
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\ -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\Common\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\MemMang\
+//        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\
+//        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Common\
+//        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\CMSIS\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Diagnostic\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\GpioPort\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\IrqController\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Pin\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Port\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Atomic\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\
+//        -I
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\Singleton\
 //        -Ol --c++ --no_exceptions --no_rtti)
 //    Locale       =  C
 //    List file    =
-//        C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-//        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List\BluetoothDirector.s
+//        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List\BluetoothDirector.s
 //
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -112,13 +104,12 @@
         PUBLIC _ZN17BluetoothDirector7ExecuteEv
         PUBLIC _ZN17BluetoothDirectorC1ER9Bluetooth
         PUBLIC _ZN17BluetoothDirectorC2ER9Bluetooth
-        PUBLIC _ZN6Filter17GetOldFilterValueEf
+        PUBLIC _ZN6Filter17GetOldFilterValueEv
         PUBLIC _ZN6Filter2RCE
         PUBLIC _ZN6Filter2dtE
         PUBLIC _ZN6Filter3tauE
         PUBLIC _ZN6FilterC1Ev
         PUBLIC _ZN6Format18GetBlueToothFormatEf
-        PUBLIC _ZN8Vlaznost8GetValueEv
         PUBLIC _ZN8VlaznostC1Ev
         PUBLIC _ZN9Bluetooth4SendER10SusuStringILj40EE
         PUBLIC _ZN9OsWrapper11RtosWrapper6wSleepEj
@@ -214,7 +205,7 @@
           CFI D15 SameValue
           CFI EndCommon cfiCommon0
         
-// C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@ @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp
+// C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
 //    1 #include "BluetoothDirector.hpp" 
 
         SECTION `.text`:CODE:REORDER:NOROOT(1)
@@ -560,13 +551,10 @@ _ZN17BluetoothDirector7ExecuteEv:
         SUB      SP,SP,#+88
           CFI CFA R13+96
         MOVS     R4,R0
-//    6     float x = myFilter.GetOldFilterValue(myVlaznost.GetValue()); //здесь должен быть метод, возващающий отфильрованное значение влажности;
-        ADDW     R0,R4,#+2152
-          CFI FunCall _ZN8Vlaznost8GetValueEv
-        BL       _ZN8Vlaznost8GetValueEv
+//    6     float x = myFilter.GetOldFilterValue(); //здесь должен быть метод, возващающий отфильрованное значение влажности;
         ADDW     R0,R4,#+2148
-          CFI FunCall _ZN6Filter17GetOldFilterValueEf
-        BL       _ZN6Filter17GetOldFilterValueEf
+          CFI FunCall _ZN6Filter17GetOldFilterValueEv
+        BL       _ZN6Filter17GetOldFilterValueEv
         MOV      R0,SP
           CFI FunCall _ZN6Format18GetBlueToothFormatEf
         BL       _ZN6Format18GetBlueToothFormatEf
@@ -1087,8 +1075,62 @@ _ZN9Bluetooth4SendER10SusuStringILj40EE:
           CFI EndBlock cfiBlock33
 
         SECTION `.text`:CODE:REORDER:NOROOT(2)
-        SECTION_GROUP _ZN6Format18GetBlueToothFormatEf
+        SECTION_GROUP _ZN8VlaznostC1Ev
           CFI Block cfiBlock34 Using cfiCommon0
+          CFI Function _ZN8VlaznostC1Ev
+          CFI NoCalls
+        THUMB
+// __code __interwork __vfp Vlaznost::Vlaznost()
+_ZN8VlaznostC1Ev:
+        LDR.N    R1,??Vlaznost_0  ;; 0x3f8c6d83
+        STR      R1,[R0, #+0]
+        LDR.N    R1,??Vlaznost_0+0x4  ;; 0x3d8a5eab
+        STR      R1,[R0, #+4]
+        LDR.N    R1,??Vlaznost_0+0x8  ;; 0xb8270f08
+        STR      R1,[R0, #+8]
+        LDR.N    R1,??Vlaznost_0+0xC  ;; 0x322a14a9
+        STR      R1,[R0, #+12]
+        MOVS     R1,#+0
+        STR      R1,[R0, #+16]
+        BX       LR               ;; return
+        Nop      
+        DATA
+??Vlaznost_0:
+        DATA32
+        DC32     0x3f8c6d83
+        DC32     0x3d8a5eab
+        DC32     0xb8270f08
+        DC32     0x322a14a9
+          CFI EndBlock cfiBlock34
+
+        SECTION `.text`:CODE:REORDER:NOROOT(1)
+        SECTION_GROUP _ZN6FilterC1Ev
+          CFI Block cfiBlock35 Using cfiCommon0
+          CFI Function _ZN6FilterC1Ev
+          CFI NoCalls
+        THUMB
+// __code __interwork __vfp Filter::Filter()
+_ZN6FilterC1Ev:
+        MOVS     R1,#+0
+        STR      R1,[R0, #+0]
+        BX       LR               ;; return
+          CFI EndBlock cfiBlock35
+
+        SECTION `.text`:CODE:REORDER:NOROOT(1)
+        SECTION_GROUP _ZN6Filter17GetOldFilterValueEv
+          CFI Block cfiBlock36 Using cfiCommon0
+          CFI Function _ZN6Filter17GetOldFilterValueEv
+          CFI NoCalls
+        THUMB
+// __interwork __vfp float Filter::GetOldFilterValue()
+_ZN6Filter17GetOldFilterValueEv:
+        VLDR     S0,[R0, #0]
+        BX       LR               ;; return
+          CFI EndBlock cfiBlock36
+
+        SECTION `.text`:CODE:REORDER:NOROOT(2)
+        SECTION_GROUP _ZN6Format18GetBlueToothFormatEf
+          CFI Block cfiBlock37 Using cfiCommon0
           CFI Function _ZN6Format18GetBlueToothFormatEf
         THUMB
 // __interwork __vfp SusuString<40U> Format::GetBlueToothFormat(float)
@@ -1132,83 +1174,7 @@ _ZN6Format18GetBlueToothFormatEf:
         DC32     _ZZN6Format18GetBlueToothFormatEfEs_1
         DC32     _ZZN6Format18GetBlueToothFormatEfEs_0
         DC32     _ZZN6Format18GetBlueToothFormatEfEs
-          CFI EndBlock cfiBlock34
-
-        SECTION `.text`:CODE:REORDER:NOROOT(2)
-        SECTION_GROUP _ZN8VlaznostC1Ev
-          CFI Block cfiBlock35 Using cfiCommon0
-          CFI Function _ZN8VlaznostC1Ev
-          CFI NoCalls
-        THUMB
-// __code __interwork __vfp Vlaznost::Vlaznost()
-_ZN8VlaznostC1Ev:
-        LDR.N    R1,??Vlaznost_0  ;; 0x3f8c6d83
-        STR      R1,[R0, #+0]
-        LDR.N    R1,??Vlaznost_0+0x4  ;; 0x3d8a5eab
-        STR      R1,[R0, #+4]
-        LDR.N    R1,??Vlaznost_0+0x8  ;; 0xb8270f08
-        STR      R1,[R0, #+8]
-        LDR.N    R1,??Vlaznost_0+0xC  ;; 0x322a14a9
-        STR      R1,[R0, #+12]
-        MOVS     R1,#+0
-        STR      R1,[R0, #+16]
-        BX       LR               ;; return
-        Nop      
-        DATA
-??Vlaznost_0:
-        DATA32
-        DC32     0x3f8c6d83
-        DC32     0x3d8a5eab
-        DC32     0xb8270f08
-        DC32     0x322a14a9
-          CFI EndBlock cfiBlock35
-
-        SECTION `.text`:CODE:REORDER:NOROOT(1)
-        SECTION_GROUP _ZN8Vlaznost8GetValueEv
-          CFI Block cfiBlock36 Using cfiCommon0
-          CFI Function _ZN8Vlaznost8GetValueEv
-          CFI NoCalls
-        THUMB
-// __interwork __vfp float Vlaznost::GetValue()
-_ZN8Vlaznost8GetValueEv:
-        VLDR     S0,[R0, #+16]
-        BX       LR               ;; return
-          CFI EndBlock cfiBlock36
-
-        SECTION `.text`:CODE:REORDER:NOROOT(1)
-        SECTION_GROUP _ZN6FilterC1Ev
-          CFI Block cfiBlock37 Using cfiCommon0
-          CFI Function _ZN6FilterC1Ev
-          CFI NoCalls
-        THUMB
-// __code __interwork __vfp Filter::Filter()
-_ZN6FilterC1Ev:
-        MOVS     R1,#+0
-        STR      R1,[R0, #+0]
-        BX       LR               ;; return
           CFI EndBlock cfiBlock37
-
-        SECTION `.text`:CODE:REORDER:NOROOT(2)
-        SECTION_GROUP _ZN6Filter17GetOldFilterValueEf
-          CFI Block cfiBlock38 Using cfiCommon0
-          CFI Function _ZN6Filter17GetOldFilterValueEf
-          CFI NoCalls
-        THUMB
-// __interwork __vfp float Filter::GetOldFilterValue(float)
-_ZN6Filter17GetOldFilterValueEf:
-        VLDR     S1,[R0, #0]
-        VSUB.F32 S1,S0,S1
-        LDR.N    R1,??GetOldFilterValue_0
-        VLDR     S2,[R1, #0]
-        VLDR     S0,[R0, #0]
-        VMLA.F32 S0,S1,S2
-        VSTR     S0,[R0, #0]
-        BX       LR               ;; return
-        DATA
-??GetOldFilterValue_0:
-        DATA32
-        DC32     _ZN6Filter3tauE
-          CFI EndBlock cfiBlock38
 
         SECTION `.iar_vfe_vtableinfo_ZTV17BluetoothDirector`:DATA:NOALLOC:NOROOT(2)
         SECTION_TYPE SHT_PROGBITS, 0
@@ -1268,9 +1234,9 @@ _ZN6Filter17GetOldFilterValueEf:
 //   5 bytes in section .bss
 //   4 bytes in section .init_array
 // 255 bytes in section .rodata
-// 700 bytes in section .text
+// 660 bytes in section .text
 // 
-// 172 bytes of CODE  memory (+ 532 bytes shared)
+// 164 bytes of CODE  memory (+ 500 bytes shared)
 //   8 bytes of CONST memory (+ 247 bytes shared)
 //   0 bytes of DATA  memory (+   5 bytes shared)
 //

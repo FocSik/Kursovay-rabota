@@ -13,53 +13,40 @@
 
 using namespace::OsWrapper ;
 
-//pointer to MailBox in spase OsWrapper
-using tMailBox = OsWrapper::MailBox<uint32_t, 1> ;
 
 template <typename myADC>
-class VariableTask : public OsWrapper::Thread<512> 
+
+class VariableTask : public OsWrapper::Thread<512>
 {
 private:
-  OsWrapper::Event& myEvent;  
-  inline static float value;
+  
+ // inline static float value;
+  Filter filter;
+  Vlaznost myVlaznost; 
   
 public:
   void Execute() override
   {
-    
-  myADC::SetChannel(0); //podkluchaem kanali
-  myADC::dmaConfig(); //podkluchaem DMA 
+    myADC::SetChannel(0); //podkluchaem kanali
+    myADC::dmaConfig(); //podkluchaem DMA 
+    myADC::adcConfig(Resolution::Bits12, tSampleRate::Cycles480, tSampleRate::Cycles480);
   
-   for( ; ;)
+    for( ; ;)
+    {
+        myADC::On(); //vkluchaen adc
+        myADC::Start();
+        myADC::GetCode();
+        std::cout << "Code: " << myADC::GetCode() << std::endl; 
+        myVlaznost.Calculation(myADC::GetCode());
+        filter.Update(myVlaznost.GetValue());
+        std::cout << "CodeVlaznost: " <<  filter.GetOldFilterValue() << std::endl;
+        Sleep(100ms);
+    } 
+  }
+  float GetFilterValue ()
   {
-  myADC::On(); //vkluchaen adc
-  myADC::Start();
-  myADC::GetCode();
-  std::cout << "Code: " << myADC::GetCode() << std::endl;
-  
-    auto code = myADC::GetCode(); //po idee, uzhe ne nuzhen
-    
-   Vlaznost myVlaznost; 
-  
-  myVlaznost.Calculation(myADC::GetCode());
-  myVlaznost.GetValue();
-     
-  Filter myFilter;
-  myFilter.Update(myVlaznost.GetValue());
-  myFilter.GetOldFilterValue(myVlaznost.GetValue());
-  value = myFilter.GetOldFilterValue(myVlaznost.GetValue());
-  std::cout << "CodeVlaznost: " <<  myFilter.GetOldFilterValue(myVlaznost.GetValue()) << std::endl;
-
-    Sleep(100ms);
-  } 
+    return filter.GetOldFilterValue();
   }
-  
-  static float GetFilteredValue() {
-    return value;
-  }
-  
-  VariableTask(OsWrapper::Event& event): myEvent(event)
-  {}
 };
 
 #endif 

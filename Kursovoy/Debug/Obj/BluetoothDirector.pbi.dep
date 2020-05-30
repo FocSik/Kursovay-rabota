@@ -1,7 +1,7 @@
 BluetoothDirector.pbi: \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\MyTask/BluetoothDirector.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\Thread.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask/BluetoothDirector.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\Thread.hpp \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\array \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\algorithm \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\xmemory \
@@ -73,58 +73,62 @@ BluetoothDirector.pbi: \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cerrno \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\errno.h \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\tuple \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos\rtosdefs.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\FreeRtos.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/..\FreeRTOSConfig.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/projdefs.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/portable.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/deprecated_definitions.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portmacro.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos\rtosdefs.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\FreeRtos.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include/..\FreeRTOSConfig.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include/projdefs.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include/portable.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include/deprecated_definitions.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portmacro.h \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\intrinsics.h \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iccarm_builtin.h \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iar_intrinsics_common.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/mpu_wrappers.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\task.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/list.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\semphr.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/queue.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\queue.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\timers.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/task.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\event_groups.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include/timers.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common\susudefs.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include/mpu_wrappers.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\task.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include/list.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\semphr.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include/queue.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\queue.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\timers.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include/task.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\event_groups.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include/timers.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\susudefs.hpp \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cassert \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\assert.h \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\FreeRTOSConfig.h \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\FreeRTOSConfig.h \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\chrono \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\ratio \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos\rtoswrapper.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos/rtosdefs.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\eventmode.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application\Bluetooth.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application/IBluetoothDriver.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware\Format.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos\rtoswrapper.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos/rtosdefs.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\eventmode.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Bluetooth.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application/IBluetoothDriver.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\Format.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\thread.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\VariableTask.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\mailbox.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\event.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper/eventmode.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\ADC.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware/DMA.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\dma2registers.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\dma2fieldvalues.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers/fieldvaluebase.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers/accessmode.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers/registerfield.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Atomic\atomicutils.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\registerbase.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers/registertype.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\register.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers/fieldvalue.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\accessmode.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application/Vlaznost.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application/Filter.hpp \
   D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\iostream \
-  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\string \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application\VariableTask.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\thread.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\mailbox.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\event.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper/eventmode.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware\ADC.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware/DMA.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\dma2registers.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\dma2fieldvalues.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/fieldvaluebase.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/accessmode.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/registerfield.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Atomic\atomicutils.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\registerbase.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/registertype.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\register.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers/fieldvalue.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\accessmode.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application/Vlaznost.hpp \
-  C:\Users\FocSik\Desktop\курсовая\ крайний\ вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application/Filter.hpp
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Filter.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware/USART.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware/USARTConfig.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\usart2registers.hpp \
+  C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\usart2fieldvalues.hpp

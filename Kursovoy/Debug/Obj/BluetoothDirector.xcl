@@ -1,66 +1,66 @@
-"C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp"
+"C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp"
 -std=c++17
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Debug\Obj\BluetoothDirector.pbi.dep
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj\BluetoothDirector.pbi.dep
 -o
 BluetoothDirector.pbi
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\MyTask
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\Common
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\Common
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\MemMang
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\MemMang
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\MyTask
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Common
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Common
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\CMSIS
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\CMSIS
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application\Diagnostic
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Diagnostic
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware\GpioPort
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\GpioPort
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware\IrqController
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\IrqController
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Pin
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Pin
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Port
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Port
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Atomic
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Atomic
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common\Singleton
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\Singleton
 -I
 D:\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
@@ -68,57 +68,57 @@ D:\IAR Systems\Embedded Workbench 8.3\arm\inc\c
 -I
 D:\IAR Systems\Embedded Workbench 8.3\arm\inc\cpp
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\Common
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\Common
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\MemMang
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\MemMang
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\MyTask
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Common
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Common
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\CMSIS
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\CMSIS
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\Application\Diagnostic
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Diagnostic
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware\GpioPort
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\GpioPort
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\Kursovoy\AHardware\IrqController
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\IrqController
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\CortexLib\AbstractHardware\Pin
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\CortexLib\AbstractHardware\Pin
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\CortexLib\AbstractHardware\Registers\STM32F411
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\CortexLib\AbstractHardware\Registers\STM32F411
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\CortexLib\AbstractHardware\Registers
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\CortexLib\AbstractHardware\Registers
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\CortexLib\AbstractHardware\Port
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\CortexLib\AbstractHardware\Port
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\CortexLib\AbstractHardware\Atomic
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\CortexLib\AbstractHardware\Atomic
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\CortexLib\Common
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\CortexLib\Common
 -I
-C:\Users\FocSik\Desktop\курсовая крайний вариант\ааааааааааааааааа\Kursovay-rabota-master\CortexLib\Common\Singleton
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\CortexLib\Common\Singleton
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

@@ -26,12 +26,7 @@ Cycles480
 
 using myDMA = DMA<DMA2>;
 using ChannelNum = uint32_t;
-class AdcConfig
-{
-public:
-Resolution resolution;
-tSampleRate sampleRate;
-};
+
 
 template<class T>
 class ADC
@@ -65,10 +60,10 @@ myDMA::TargetSet(T::DR::Address, code);
 myDMA::StreamOn();
 }
 
-static void adcConfig(AdcConfig config, ChannelNum channelnum)
+static void adcConfig(Resolution resolution, tSampleRate tsamplerate, tSampleRate vsamplerate)
 
 {
-switch(config.resolution)
+switch(resolution)
 {
 case Resolution::Bits12:
 T::CR1::RES::Bits12::Set();
@@ -91,10 +86,10 @@ T::CR1::RES::Bits12::Set();
 break;
 }
 
-switch(config.sampleRate)
+switch(tsamplerate)
 {
 case tSampleRate::Cycles3:
-T::SMPR1::SMP18::Cycles480::Set();
+T::SMPR1::SMP18::Cycles3::Set();
 break;
 
 case tSampleRate::Cycles15:

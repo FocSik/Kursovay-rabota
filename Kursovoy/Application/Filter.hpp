@@ -4,6 +4,7 @@
 #include "Vlaznost.hpp"
 #include "Format.hpp"
 
+
 class Filter
 {
 private:
@@ -15,16 +16,13 @@ float OldFilterValue = 0.0f; //staroe otfiltrovanoe znachenie
 public:
 float Update(float value) //filtracia vlaznosti
 {
-float FilterValue = OldFilterValue+(value-OldFilterValue)*tau; //vicheclenie poluchennogo znachenia
+float FilterValue = OldFilterValue+(value-OldFilterValue); //vicheclenie poluchennogo znachenia
 OldFilterValue = FilterValue; //zapisivaet tecuchee znachenie dla dalneichei raboti
 return FilterValue; //konets
 }
 
-float GetOldFilterValue (float value)
+float GetOldFilterValue ()
 {
-float FilterValue = OldFilterValue + (value - OldFilterValue)*tau;
-OldFilterValue = FilterValue;
-vFormat GetOldFilterValue();
-return FilterValue;
+return OldFilterValue;
 }
 };

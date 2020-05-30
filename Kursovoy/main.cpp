@@ -9,14 +9,11 @@
 #include "USART.hpp"
 #include "susudefs.hpp"
 #include "Filter.hpp"
-#include "Bluetooth.hpp"
-#include "BluetoothDriver.hpp"
-#include "BluetoothDirector.hpp"
-#include "IBluetoothDriver.hpp"
 #include <iostream>
 #include "usart2registers.hpp"
 #include <cmath>
 #include "gpioaregisters.hpp"
+#include "BluetoothTask.hpp" 
 
 
 
@@ -54,33 +51,22 @@ return 1;
 //OsWrapper::Event event{500ms, 1}; //FIXME Чисто для примера
 //MyTask myTask(event, UserButton::GetInstance()); //FIXME Чисто для примера
 
-OsWrapper::Event event(500ms, 1);
 //MyTask myTask(event, UserButton::GetInstance()); //FIXME ????? ??? ???????
 using myADC = ADC<ADC1>;
+using myUSART = USART<USART2, 16000000U>;
 
-VariableTask<myADC> myVariableTask(event);
-
-BluetoothDriver<USART<USART2, 16000000U>> bluetoothdriver ;
-Bluetooth bluetooth(bluetoothdriver) ;
-BluetoothDirector myBluetoothDirector(bluetooth) ;
+VariableTask<myADC> myVariableTask;
+using variableTask = VariableTask<myADC>;
+BluetoothTask<myUSART, myVariableTask> myBluetoothTask;
 
 int main() {
-using myUSART = USART<USART2, 16000000U>;
-UsartConfig USART2Config ;
-USART2Config.speed = Speed::Speed9600 ;
-USART2Config.stopbits = StopBits::OneBit ;
-USART2Config.bitssize = BitsSize::Bits8 ;
-USART2Config.parity = Parity::None ;
-USART2Config.samplingmode = SamplingMode::Mode8 ;
-myUSART::Config(USART2Config);
-myUSART::On();
 
 using namespace OsWrapper;
 Rtos::CreateThread(myVariableTask, "Execute", ThreadPriority::normal);
-Rtos::CreateThread(myBluetoothDirector, "BluetoothDirector", ThreadPriority::normal) ; 
+Rtos::CreateThread(myBluetoothTask, "Execute", ThreadPriority::normal);
 Rtos::Start();
 
 
 return 0;
-}
 
+};

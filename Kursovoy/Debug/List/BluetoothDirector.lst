@@ -1,97 +1,81 @@
 ###############################################################################
 #
-# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         30/May/2020  11:09:22
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         30/May/2020  19:55:32
 # Copyright 1999-2019 IAR Systems AB.
 #
 #    Cpu mode     =  
 #    Endian       =  little
 #    Source file  =
-#        C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
 #    Command line =
-#        -f C:\Users\FocSik\AppData\Local\Temp\EW68B5.tmp
-#        ("C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp"
-#        -lC "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List"
-#        -lA "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List"
-#        -o "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\Obj"
+#        -f C:\Users\FocSik\AppData\Local\Temp\EW2BFF.tmp
+#        (C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
+#        -lC
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
+#        -lA
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List
+#        -o C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj
 #        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
 #        --no_clustering --no_scheduling --debug --endian=little
 #        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D:\IAR
 #        Systems\Embedded Workbench 8.3\arm\inc\c\DLib_Config_Normal.h" -I
-#        "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\wrapper\FreeRtos\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\include\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\Common\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Rtos\FreeRtos\portable\MemMang\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Common\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\CMSIS\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Application\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Application\Diagnostic\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\AHardware\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\AHardware\GpioPort\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\AHardware\IrqController\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Pin\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Registers\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Port\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\AbstractHardware\Atomic\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common\"
-#        -I "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\..\CortexLib\Common\Singleton\"
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\ -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\wrapper\FreeRtos\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\include\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\Common\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Rtos\FreeRtos\portable\MemMang\
+#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\
+#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Common\
+#        -I C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\CMSIS\ -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Application\Diagnostic\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\GpioPort\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\AHardware\IrqController\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Pin\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\STM32F411\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Registers\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Port\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\AbstractHardware\Atomic\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\
+#        -I
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\..\CortexLib\Common\Singleton\
 #        -Ol --c++ --no_exceptions --no_rtti)
 #    Locale       =  C
 #    List file    =
-#        C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List\BluetoothDirector.lst
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\List\BluetoothDirector.lst
 #    Object file  =
-#        C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-#        @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\Obj\BluetoothDirector.o
+#        C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\Debug\Obj\BluetoothDirector.o
 #
 ###############################################################################
 
-C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@ @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\MyTask\BluetoothDirector.cpp
+C:\Users\FocSik\Documents\GitHub\Kursovay-rabota\Kursovoy\MyTask\BluetoothDirector.cpp
       1          #include "BluetoothDirector.hpp" 
-Warning[Ms014]: some characters could not be correctly encoded in
-          "C:\Users\FocSik\Desktop\@@@@@@@@ @@@@@@@
-          @@@@@@@\@@@@@@@@@@@@@@@@@\Kursovay-rabota-master\Kursovoy\Debug\List
-          \BluetoothDirector.s", and have been replaced with '@'. The first
-          such character has unicode code point 0x43a ("@")
 
    \                                 In section .text, align 2
    \   __interwork __vfp char *std::_Addressof<char>(char &, std::false_type)
@@ -385,6 +369,55 @@ Warning[Ms014]: some characters could not be correctly encoded in
    \        0xE   0xBD01             POP      {R0,PC}          ;; return
 
    \                                 In section .text, align 4
+   \   __code __interwork __vfp Vlaznost::Vlaznost()
+   \                     _ZN8VlaznostC1Ev: (+1)
+   \        0x0   0x4905             LDR.N    R1,??Vlaznost_0  ;; 0x3f8c6d83
+   \        0x2   0x6001             STR      R1,[R0, #+0]
+   \        0x4   0x4905             LDR.N    R1,??Vlaznost_0+0x4  ;; 0x3d8a5eab
+   \        0x6   0x6041             STR      R1,[R0, #+4]
+   \        0x8   0x4905             LDR.N    R1,??Vlaznost_0+0x8  ;; 0xb8270f08
+   \        0xA   0x6081             STR      R1,[R0, #+8]
+   \        0xC   0x4905             LDR.N    R1,??Vlaznost_0+0xC  ;; 0x322a14a9
+   \        0xE   0x60C1             STR      R1,[R0, #+12]
+   \       0x10   0x2100             MOVS     R1,#+0
+   \       0x12   0x6101             STR      R1,[R0, #+16]
+   \       0x14   0x4770             BX       LR               ;; return
+   \       0x16   0xBF00             Nop      
+   \                     ??Vlaznost_0:
+   \       0x18   0x3F8C'6D83        DC32     0x3f8c6d83
+   \       0x1C   0x3D8A'5EAB        DC32     0x3d8a5eab
+   \       0x20   0xB827'0F08        DC32     0xb8270f08
+   \       0x24   0x322A'14A9        DC32     0x322a14a9
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp Filter::Filter()
+   \                     _ZN6FilterC1Ev: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x6001             STR      R1,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .rodata, align 4
+   \   __absolute float const Filter::RC
+   \                     _ZN6Filter2RCE:
+   \        0x0   0x447A'0000        DC32 0x447a'0000
+
+   \                                 In section .rodata, align 4
+   \   __absolute float const Filter::dt
+   \                     _ZN6Filter2dtE:
+   \        0x0   0x42C8'0000        DC32 0x42c8'0000
+
+   \                                 In section .bss, align 4
+   \   __absolute float const Filter::tau
+   \                     _ZN6Filter3tauE:
+   \        0x0                      DS8 4
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp float Filter::GetOldFilterValue()
+   \                     _ZN6Filter17GetOldFilterValueEv: (+1)
+   \        0x0   0xED90 0x0A00      VLDR     S0,[R0, #0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 4
    \   __interwork __vfp SusuString<40U> Format::GetBlueToothFormat(float)
    \                     _ZN6Format18GetBlueToothFormatEf: (+1)
    \        0x0   0xB518             PUSH     {R3,R4,LR}
@@ -414,69 +447,6 @@ Warning[Ms014]: some characters could not be correctly encoded in
    \       0x3C   0x....'....        DC32     _ZZN6Format18GetBlueToothFormatEfEs_1
    \       0x40   0x....'....        DC32     _ZZN6Format18GetBlueToothFormatEfEs_0
    \       0x44   0x....'....        DC32     _ZZN6Format18GetBlueToothFormatEfEs
-
-   \                                 In section .text, align 4
-   \   __code __interwork __vfp Vlaznost::Vlaznost()
-   \                     _ZN8VlaznostC1Ev: (+1)
-   \        0x0   0x4905             LDR.N    R1,??Vlaznost_0  ;; 0x3f8c6d83
-   \        0x2   0x6001             STR      R1,[R0, #+0]
-   \        0x4   0x4905             LDR.N    R1,??Vlaznost_0+0x4  ;; 0x3d8a5eab
-   \        0x6   0x6041             STR      R1,[R0, #+4]
-   \        0x8   0x4905             LDR.N    R1,??Vlaznost_0+0x8  ;; 0xb8270f08
-   \        0xA   0x6081             STR      R1,[R0, #+8]
-   \        0xC   0x4905             LDR.N    R1,??Vlaznost_0+0xC  ;; 0x322a14a9
-   \        0xE   0x60C1             STR      R1,[R0, #+12]
-   \       0x10   0x2100             MOVS     R1,#+0
-   \       0x12   0x6101             STR      R1,[R0, #+16]
-   \       0x14   0x4770             BX       LR               ;; return
-   \       0x16   0xBF00             Nop      
-   \                     ??Vlaznost_0:
-   \       0x18   0x3F8C'6D83        DC32     0x3f8c6d83
-   \       0x1C   0x3D8A'5EAB        DC32     0x3d8a5eab
-   \       0x20   0xB827'0F08        DC32     0xb8270f08
-   \       0x24   0x322A'14A9        DC32     0x322a14a9
-
-   \                                 In section .text, align 2
-   \   __interwork __vfp float Vlaznost::GetValue()
-   \                     _ZN8Vlaznost8GetValueEv: (+1)
-   \        0x0   0xED90 0x0A04      VLDR     S0,[R0, #+16]
-   \        0x4   0x4770             BX       LR               ;; return
-
-   \                                 In section .text, align 2
-   \   __code __interwork __vfp Filter::Filter()
-   \                     _ZN6FilterC1Ev: (+1)
-   \        0x0   0x2100             MOVS     R1,#+0
-   \        0x2   0x6001             STR      R1,[R0, #+0]
-   \        0x4   0x4770             BX       LR               ;; return
-
-   \                                 In section .rodata, align 4
-   \   __absolute float const Filter::RC
-   \                     _ZN6Filter2RCE:
-   \        0x0   0x447A'0000        DC32 0x447a'0000
-
-   \                                 In section .rodata, align 4
-   \   __absolute float const Filter::dt
-   \                     _ZN6Filter2dtE:
-   \        0x0   0x42C8'0000        DC32 0x42c8'0000
-
-   \                                 In section .bss, align 4
-   \   __absolute float const Filter::tau
-   \                     _ZN6Filter3tauE:
-   \        0x0                      DS8 4
-
-   \                                 In section .text, align 4
-   \   __interwork __vfp float Filter::GetOldFilterValue(float)
-   \                     _ZN6Filter17GetOldFilterValueEf: (+1)
-   \        0x0   0xEDD0 0x0A00      VLDR     S1,[R0, #0]
-   \        0x4   0xEE70 0x0A60      VSUB.F32 S1,S0,S1
-   \        0x8   0x4904             LDR.N    R1,??GetOldFilterValue_0
-   \        0xA   0xED91 0x1A00      VLDR     S2,[R1, #0]
-   \        0xE   0xED90 0x0A00      VLDR     S0,[R0, #0]
-   \       0x12   0xEE00 0x0A81      VMLA.F32 S0,S1,S2
-   \       0x16   0xED80 0x0A00      VSTR     S0,[R0, #0]
-   \       0x1A   0x4770             BX       LR               ;; return
-   \                     ??GetOldFilterValue_0:
-   \       0x1C   0x....'....        DC32     _ZN6Filter3tauE
       2          
 
    \                                 In section .text, align 2, keep-with-next
@@ -511,29 +481,27 @@ Warning[Ms014]: some characters could not be correctly encoded in
    \        0x0   0xB510             PUSH     {R4,LR}
    \        0x2   0xB096             SUB      SP,SP,#+88
    \        0x4   0x0004             MOVS     R4,R0
-      6              float x = myFilter.GetOldFilterValue(myVlaznost.GetValue()); //здесь должен быть метод, возващающий отфильрованное значение влажности;
-   \        0x6   0xF604 0x0068      ADDW     R0,R4,#+2152
-   \        0xA   0x....'....        BL       _ZN8Vlaznost8GetValueEv
-   \        0xE   0xF604 0x0064      ADDW     R0,R4,#+2148
-   \       0x12   0x....'....        BL       _ZN6Filter17GetOldFilterValueEf
-   \       0x16   0x4668             MOV      R0,SP
-   \       0x18   0x....'....        BL       _ZN6Format18GetBlueToothFormatEf
+      6              float x = myFilter.GetOldFilterValue(); //здесь должен быть метод, возващающий отфильрованное значение влажности;
+   \        0x6   0xF604 0x0064      ADDW     R0,R4,#+2148
+   \        0xA   0x....'....        BL       _ZN6Filter17GetOldFilterValueEv
+   \        0xE   0x4668             MOV      R0,SP
+   \       0x10   0x....'....        BL       _ZN6Format18GetBlueToothFormatEf
       7              auto f = Format::GetBlueToothFormat(x);
-   \       0x1C   0xA80B             ADD      R0,SP,#+44
-   \       0x1E   0x4669             MOV      R1,SP
-   \       0x20   0x222C             MOVS     R2,#+44
-   \       0x22   0x....'....        BL       __aeabi_memcpy4
+   \       0x14   0xA80B             ADD      R0,SP,#+44
+   \       0x16   0x4669             MOV      R1,SP
+   \       0x18   0x222C             MOVS     R2,#+44
+   \       0x1A   0x....'....        BL       __aeabi_memcpy4
       8              bluetooth.Send(f) ;
-   \       0x26   0xA90B             ADD      R1,SP,#+44
-   \       0x28   0xF8D4 0x085C      LDR      R0,[R4, #+2140]
-   \       0x2C   0x....'....        BL       _ZN9Bluetooth4SendER10SusuStringILj40EE
-   \       0x30   0x....             LDR.N    R2,??DataTable3_4
-   \       0x32   0xE9D2 0x0100      LDRD     R0,R1,[R2, #+0]
+   \       0x1E   0xA90B             ADD      R1,SP,#+44
+   \       0x20   0xF8D4 0x085C      LDR      R0,[R4, #+2140]
+   \       0x24   0x....'....        BL       _ZN9Bluetooth4SendER10SusuStringILj40EE
+   \       0x28   0x....             LDR.N    R2,??DataTable3_4
+   \       0x2A   0xE9D2 0x0100      LDRD     R0,R1,[R2, #+0]
       9              Sleep(1000ms) ;
-   \       0x36   0x....'....        BL       _ZN9OsWrapper7IThread5SleepENSt6chrono8durationIxSt5ratioILx1ELx1000EEEE
+   \       0x2E   0x....'....        BL       _ZN9OsWrapper7IThread5SleepENSt6chrono8durationIxSt5ratioILx1ELx1000EEEE
      10            }
-   \       0x3A   0xB016             ADD      SP,SP,#+88
-   \       0x3C   0xBD10             POP      {R4,PC}          ;; return
+   \       0x32   0xB016             ADD      SP,SP,#+88
+   \       0x34   0xBD10             POP      {R4,PC}          ;; return
 
    \                                 In section .rodata, align 8
    \                     ?_0:
@@ -591,15 +559,14 @@ Warning[Ms014]: some characters could not be correctly encoded in
         16   -> Vlaznost::Vlaznost()
       96   BluetoothDirector::Execute()
         96   -> Bluetooth::Send(SusuString<40U> &)
-        96   -> Filter::GetOldFilterValue(float)
+        96   -> Filter::GetOldFilterValue()
         96   -> Format::GetBlueToothFormat(float)
         96   -> OsWrapper::IThread::Sleep(std::chrono::milliseconds)
-        96   -> Vlaznost::GetValue()
         96   -> __aeabi_memcpy4
        8   BluetoothDirector::subobject BluetoothDirector(Bluetooth &)
          8   -> BluetoothDirector::BluetoothDirector(Bluetooth &)
        0   Filter::Filter()
-       0   Filter::GetOldFilterValue(float)
+       0   Filter::GetOldFilterValue()
       96   Format::GetBlueToothFormat(float)
         96   -> SusuString<40U>::Set<40U>(char const (&)[40])
         96   -> SusuString<40U>::SusuString()
@@ -623,7 +590,6 @@ Warning[Ms014]: some characters could not be correctly encoded in
          8   -> std::array<char, 40U>::begin()
          8   -> std::copy<char const *, std::array<char, 40U>::iterator>(char const *, char const *, std::array<char, 40U>::iterator)
        0   SusuString<40U>::SusuString()
-       0   Vlaznost::GetValue()
        0   Vlaznost::Vlaznost()
        8   __sti__routine()
          8   -> expf
@@ -681,10 +647,10 @@ Warning[Ms014]: some characters could not be correctly encoded in
        8  ?_0
       16  Bluetooth::Send(SusuString<40U> &)
       40  BluetoothDirector::BluetoothDirector(Bluetooth &)
-      62  BluetoothDirector::Execute()
+      54  BluetoothDirector::Execute()
        8  BluetoothDirector::subobject BluetoothDirector(Bluetooth &)
        6  Filter::Filter()
-      32  Filter::GetOldFilterValue(float)
+       6  Filter::GetOldFilterValue()
        4  Filter::RC
        4  Filter::dt
        4  Filter::tau
@@ -697,7 +663,6 @@ Warning[Ms014]: some characters could not be correctly encoded in
        8  OsWrapper::Thread<512U>::subobject Thread()
       22  SusuString<40U>::Set<40U>(char const (&)[40])
        6  SusuString<40U>::SusuString()
-       6  Vlaznost::GetValue()
       40  Vlaznost::Vlaznost()
       38  __sti__routine()
        2  std::_Addressof<char>(char &, std::false_type)
@@ -730,11 +695,11 @@ Warning[Ms014]: some characters could not be correctly encoded in
    5 bytes in section .bss
    4 bytes in section .init_array
  255 bytes in section .rodata
- 700 bytes in section .text
+ 660 bytes in section .text
  
- 172 bytes of CODE  memory (+ 532 bytes shared)
+ 164 bytes of CODE  memory (+ 500 bytes shared)
    8 bytes of CONST memory (+ 247 bytes shared)
    0 bytes of DATA  memory (+   5 bytes shared)
 
 Errors: none
-Warnings: 1
+Warnings: none
